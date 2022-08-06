@@ -1,0 +1,34 @@
+---
+title: "Designers design, developers build"
+---
+
+During one of my recent job interviews with a frontend engineer, he asked me "Will I be responsible for designing the application as well?". My first reaction was one of shock, at first, I couldn't understand if it was a real question. After a couple of seconds, I realized that this is actually a common bad practice. Asking an engineer to design an application is equal to placing a camel on a horse race. The camel can run, but you wouldn't bet on it to win the race. My answer was that we would always have a designer define the look and feel of the application.
+
+Over eleven years of building software, I received many invitations to design experiences. Once I heard that a good developer should design too. Although I've met many developers with a keen eye for design, that was the exception rather than the rule. I have heard CEOs saying that as long as an app worked then people would use it. This misconception comes from many places, one of them being history. Twenty years ago we didn't have many people using the internet, and those wanted to be part of it. Nowadays everyone has a computer and many users need to use it. The difference here is the willingness, it is between wanting to use software and having to do it.
+
+The amount of effort necessa
+
+This conversation made me think about the challenges engineers face on a daily basis. When it comes to paying for software, it is more expensive to maintain an artifact than to build it the first time. Which doesn't make it cheaper to build at first, but worse to maintain. Still, we can take action to improve the maintainability of a frontend artifact.
+
+One big issue I've faced in the past was the lack of proper design planning. The story would go like this:
+
+1. I would see a design for a page, and I wouldn't have an idea of any other page.
+2. I would build let's say, a button for that page.
+3. Later I would see another page, and discover that there is one more variation of that button.
+4. I would go to my old button and update it to allow for the new variation.
+5. Repeat step 3 and 4 a dozen times.
+
+Now imagine these steps happening with all the components of a page. I remember one developer telling me:
+
+> If I knew how many things would be different across these cards, I would have built a generic one from the beginning, but instead, I always assumed we wouldn't have a new variation, it is 2 am, and here I am creating another one
+
+Another problem easy to ignore is color naming. Name is so important that the human race created a name for every single known star in the universe. Nowadays if it exists it has a name. Now, imagine the result of having someone who doesn't have a clue about color handles for naming those. It is the same as asking a painter to name a new species of spider in Latin.
+
+For instance, this happened:
+
+![Messy SASS colors example](https://raw.githubusercontent.com/kaiomagalhaes/kaiomagalhaes.github.io/master/_posts/images/design-system-1.png)
+
+
+This is a good example of what happens when an engineer handles naming colors.
+
+You can check the full file [here](https://gist.github.com/kaiomagalhaes/0f0043451ca3b4afb5c6065fa0fd3ada)

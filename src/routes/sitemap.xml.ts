@@ -24,22 +24,22 @@ const sitemap = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
   xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
 >
   <url>
-    <loc>https://pzuraq.com</loc>
+    <loc>https://kaiomagalhaes.com</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pzuraq.com/art</loc>
+    <loc>https://kaiomagalhaes.com/art</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pzuraq.com/favs</loc>
+    <loc>https://kaiomagalhaes.com/favs</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pzuraq.com/about</loc>
+    <loc>https://kaiomagalhaes.com/about</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -47,7 +47,7 @@ const sitemap = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
     .map(
       (post) => `
   <url>
-    <loc>https://pzuraq.com/blog/${post.slug}</loc>
+    <loc>https://kaiomagalhaes.com/blog/${post.slug}</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

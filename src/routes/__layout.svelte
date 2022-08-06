@@ -26,7 +26,7 @@
   </a>
 
   <div class="flex-grow -mt-10 md:mt-0">
-    <a sveltekit:prefetch href="/" class="lg:text-4xl text-3xl"> pzuraq </a>
+    <a sveltekit:prefetch href="/" class="lg:text-4xl text-3xl"> kaio magalhaes </a>
     <br />
     <a
       href="http://ipa-reader.xyz/?text=z%C9%99-r%C3%A4k&voice=Joanna"
