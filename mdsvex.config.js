@@ -16,7 +16,7 @@ export default {
       remarkGithub,
       {
         // Use your own repository
-        repository: 'https://github.com/pzuraq/pzuraq.com.git',
+        repository: 'https://github.com/kaiomagalhaes/kaiomagalhaes.com',
       },
     ],
     remarkAbbr,
