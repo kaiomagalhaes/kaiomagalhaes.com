@@ -6,7 +6,7 @@ Software engineering is a cursed profession. Why? Because of the _moment_:
 
 The moment when you tell someone what you do, and that big smile creeps across their face. They are actually looking for an engineer, they say, because they have a great idea --- no, an incredible idea! One that can make millions! “If we capture only 1% of the market….” Somehow, they find the generosity in their hearts to offer a full 5% of their glorious company for the small task of building it. “Non voting shares, of course.” They truly believe that an idea is all it takes to build a company, but that couldn’t be further from the truth.
 
-Last week a friend asked me for a meeting because he wanted to talk about a big idea that was "insert your big idea here". He kept saying that his parents and that one friend from college had told him that it was great and he could make a lot of money from it. This is where I start getting excited, because if those people said that,  I know the idea is destined for success. </sarcasm>
+Last week a friend asked me for a meeting because he wanted to talk about a big idea that was "insert your big idea here". He kept saying that his parents and that one friend from college had told him that it was great and he could make a lot of money from it. This is where I start getting excited, because if those people said that,  I know the idea is destined for success.
 
 ![XKCD - https://www.xkcd.com/1721/](http://imgs.xkcd.com/comics/business_idea.png)
 *[Credit XKCD](https://www.xkcd.com/1721/)*
