@@ -9,28 +9,49 @@ tagline: 'obligatory self-describing blurb'
 
 ---
 
-My name is Chris and I work on the web. Some things I am and have been
+My name is Kaio Magalhães. I have the following qualities:
 
-- Champion for adding [Decorators](https://github.com/tc39/proposal-decorators) to JavaScript
-- Lead frontend engineer at [Bitski](https://www.bitski.com/)
-- [Ember.js](https://emberjs.com/) core team alumn
-- Former frontend engineer at [LinkedIn](https://linkedin.com), [Addepar](https://addepar.com/),
-  Ticketfly (now [EventBrite](https://www.eventbrite.com/))
-- Maintainer of far too many NPM packages
+- I rock a great mustache
+- I know some good jokes
+- I do an awesome sandwich
+- I breakdance fight
 
-Outside of work I'm an amateur chef (I make a mean stew), a sci-fi/spec-fic enthusiast (with
-dreams of one day writing my own), a board game connoisseur (eventually I'll find a D&D group),
-a budding pixel artist (<span title="I can't take full credit, I started with a design from someone on fiverr (@nghuijing), but I did modify it quite a bit to get the final look and feel. The dog was also all me!">as seen in the top left<span class="text-ochre-500">\*</span></span>),
-and a dabbler in exploring the great outdoors (I summitted a mountain once, that was pretty cool).
+What else do you need?
 
-I'm also a dog dad, and head over heels for my partner Liz ❤️.
+### my history
 
-I firmly believe that black lives matter, gender is fluid (I would know a bit about that), all
-human beings are valid, and justice is not just unless it's for everyone. My pronouns are
-he/him/they/them. Slava Ukraini.
+I've started as a software developer after two years doing Biological
+Sciences. I was born to be a crazy scientist ( I discovered it when I was
+6 ), but I'm too stubborn to accept how things are, so I
+decided to be a Software Engineer, and that was when my disruption work started.
 
-If you want to get in touch, you can DM me on [Twitter](https://twitter.com/kaiocmagalhaes) or
-[Matrix](https://matrix.to/#/@pzura:matrix.org) (apologies if I take a while to respond, I am perpetually busy).
+I got a bachelor in Software Engineering at the [Universidade Federal de
+Goiás](https://www.ufg.br/) in 2016.
+
+My journey began in 2011 when I was a teacher in a tiny college
+in [Goiânia](https://www.google.com.br/search?q=goiânia&oq=goiânia) and
+I had to make all my classes diaries by hand. Every two months I had to
+write dots for 300 students. I then saw that I was in charge of a mission
+to find a way to make this process better.
+
+My first software never went into production because of three months after I
+drop out from that college and from the University only to enter again,
+but for a Software Engineer Bachelor this time.
+
+So far I've worked with a lot of projects in a lot of different
+languages like PHP, C#, Java, Javascript, Groovy, and Ruby.
+
+With a lot of frameworks like Grails, Rails, React and NodeJS.
+
+For a lot of platforms like Desktop, WEB, Android, and Hololens.
+
+I have worked as a Linux DevOps as well.
+
+I love programming related topics like code quality, software engineer,
+best practices, design patterns and I write about it always that I have
+time to.
+
+To be honest, I'm having some trouble remembering right now, so why don't you check out this [blogpost](https://blog.codelitt.com/contractor-to-cto/),it will answer **all** your questions.
 
 ---
 
