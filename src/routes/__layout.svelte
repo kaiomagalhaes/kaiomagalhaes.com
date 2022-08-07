@@ -30,8 +30,7 @@
     <br />
     <a
       href="http://ipa-reader.xyz/?text=z%C9%99-r%C3%A4k&voice=Joanna"
-      class="lg:text-xl text-lg hover:text-ochre-500">/zə-räk/</a
-    >
+      class="lg:text-xl text-lg hover:text-ochre-500">/kaju maɡaˈʎaiʃ/</a >
 
     <div
       class="text-2xl md:text-base flex md:flex flex-col justify-center mt-4 items-center"
