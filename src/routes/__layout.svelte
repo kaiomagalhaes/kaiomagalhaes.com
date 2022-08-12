@@ -29,8 +29,8 @@
     <a sveltekit:prefetch href="/" class="lg:text-4xl text-3xl"> kaio magalhaes </a>
     <br />
     <a
-      href="http://ipa-reader.xyz/?text=z%C9%99-r%C3%A4k&voice=Joanna"
-      class="lg:text-xl text-lg hover:text-ochre-500">/kaju maɡaˈʎaiʃ/</a >
+      href="http://ipa-reader.xyz/?text=kaio%20ma%C9%A1a%CB%88%CA%8Eaes&voice=Joanna"
+      class="lg:text-xl text-lg hover:text-ochre-500">/kaio maɡaˈʎaes/</a >
 
     <div
       class="text-2xl md:text-base flex md:flex flex-col justify-center mt-4 items-center"
