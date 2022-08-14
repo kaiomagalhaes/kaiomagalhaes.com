@@ -26,7 +26,7 @@ tagline: 'things I like and you might too'
 
 ### Books
 
-- <a href="https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind" class="no-underline" target="_blank">The name of the wind</a>
+- <a href="https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind" class="no-underline" target="_blank">The name of the wind - Patrick Rothfuss</a>
 
 <aside class="-mt-3">
   One of the best fiction books I've ever written. I was hooked by the name and was amazed with the character growth.
@@ -36,7 +36,7 @@ tagline: 'things I like and you might too'
   chance of reading it so far.
 </aside>
 
-- <a href="https://www.goodreads.com/book/show/30659.Meditations" class="no-underline" target="_blank">Meditations</a>
+- <a href="https://www.goodreads.com/book/show/30659.Meditations" class="no-underline" target="_blank">Meditations - Marcus Aurelius</a>
 
 <aside class="-mt-3">
   One of the most important books in my life, also the hardest to read. It is the leading book on Stoicism. 
@@ -44,14 +44,14 @@ tagline: 'things I like and you might too'
   of what is important in life.
 </aside>
 
-- <a href="https://www.goodreads.com/book/show/23848190-extreme-ownership" class="no-underline" target="_blank">Extreme Ownership</a>
+- <a href="https://www.goodreads.com/book/show/23848190-extreme-ownership" class="no-underline" target="_blank">Extreme Ownership - Jocko Willink</a>
 
 <aside class="-mt-3">
   For those who can put up with war related books, this is hands down the best high level leadership guide I've found. 
   It teaches the importance of leadership in supporting companies goals. It also taught me to be a better leader in life.
 </aside>
 
-- <a href="https://www.goodreads.com/book/show/26156469-never-split-the-difference" class="no-underline" target="_blank">Never split the difference</a>
+- <a href="https://www.goodreads.com/book/show/26156469-never-split-the-difference" class="no-underline" target="_blank">Never split the difference - Christopher Voss</a>
 
 <aside class="-mt-3">
   This is the book on communication that I wish I had written, but I don't believe I could have done a better job. 
