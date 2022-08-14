@@ -40,9 +40,9 @@
         <div class="square" />
         blog
       </NavLink>
-      <NavLink href="/favs" className="main-nav-link">
+      <NavLink href="/interests" className="main-nav-link">
         <div class="square" />
-        favs
+        interests
       </NavLink>
       <NavLink href="/about" className="main-nav-link">
         <div class="square" />
