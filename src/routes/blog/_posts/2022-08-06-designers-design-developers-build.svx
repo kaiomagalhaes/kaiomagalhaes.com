@@ -1,7 +1,0 @@
----
-title: "Designers design, developers build"
----
-
-During one of my recent job interviews with a frontend engineer, he asked me "Will I be responsible for designing the application as well?". My first reaction was one of shock, at first, I couldn't understand if it was a real question. After a couple of seconds, I realized that this is actually a common bad practice. Asking an engineer to design an application is equal to placing a camel on a horse race. The camel can run, but you wouldn't bet on it to win the race. My answer was that we would always have a designer define the look and feel of the application.
-
-Over eleven years of building software, I received many invitations to design experiences. Once I heard that a good developer should design too. Although I've met many developers with a keen eye for design, that was the exception rather than the rule. I have heard CEOs saying that as long as an app worked then people would use it. This misconception comes from many places, one of them being history. Twenty years ago we didn't have many people using the internet, and those wanted to be part of it. Nowadays everyone has a computer and many users need to use it. The difference here is the willingness, it is between wanting to use software and having to do it.
