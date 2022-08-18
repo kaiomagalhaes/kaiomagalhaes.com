@@ -14,12 +14,12 @@
 >
   <a sveltekit:prefetch href="/art" class="-mt-8 -mb-4 mx-4 md:m-0 hover:scale-105">
     <img
-      src="/assets/store-day.png"
+      src="/assets/fox-day.webp"
       alt="A peaceful little bookstore"
       class="w-full only-light pixel aspect-square"
     />
     <img
-      src="/assets/store-night.png"
+      src="/assets/fox-night.webp"
       alt="A peaceful little bookstore"
       class="w-full only-dark pixel aspect-square"
     />

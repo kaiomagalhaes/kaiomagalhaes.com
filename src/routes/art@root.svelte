@@ -16,13 +16,13 @@
 
     <div class="md:-mt-12">
       <img
-        src="/assets/store-day.png"
-        alt="A peaceful little bookstore"
+        src="/assets/fox-day.webp"
+        alt="A peaceful little fox"
         class="w-full only-light pixel aspect-square"
       />
       <img
-        src="/assets/store-night.png"
-        alt="A peaceful little bookstore"
+        src="/assets/fox-night.webp"
+        alt="A peaceful little fox"
         class="w-full only-dark pixel aspect-square"
       />
     </div>
