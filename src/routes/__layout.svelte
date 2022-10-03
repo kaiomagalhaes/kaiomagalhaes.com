@@ -48,6 +48,10 @@
         <div class="square" />
         about
       </NavLink>
+      <NavLink href="https://github.com/kaiomagalhaes/README" className="main-nav-link">
+        <div class="square" />
+        my README
+      </NavLink>
     </div>
   </div>
 
