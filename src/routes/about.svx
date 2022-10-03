@@ -11,7 +11,6 @@ tagline: 'obligatory self-describing blurb'
 
 My name is Kaio Magalhães. I have the following qualities:
 
-- I rock a great mustache
 - I know some good jokes
 - I do an awesome sandwich
 - I breakdance fight
@@ -20,38 +19,28 @@ What else do you need?
 
 ### my history
 
-I've started as a software developer after two years doing Biological
-Sciences. I was born to be a crazy scientist ( I discovered it when I was
-6 ), but I'm too stubborn to accept how things are, so I
-decided to be a Software Engineer, and that was when my disruption work started.
+I was born to be a crazy scientist (I discovered it when I was 6) after seeing the villain of Woodpecker build a [robot](https://m.media-amazon.com/images/M/MV5BZjM5NjRmZTMtNzZlZS00NjM0LWJhMzctNTM0MGE0OGZmZWY4XkEyXkFqcGdeQXVyMTYwNDQwMzA@._V1_.jpg).
+I thought the best way was to become a biology scientist, thus I did two years of biological sciences.
+During those two years, I realized that I'm too stubborn to follow something I decided when I was six. That was when my disruption work started.
 
-I got a bachelor in Software Engineering at the [Universidade Federal de
-Goiás](https://www.ufg.br/) in 2016.
+This journey began in 2011 when I was a teacher in a tiny college in [Goiânia](https://goo.gl/maps/XB5XUK1ige3VgzLB9).
+I realized the awful amount of paperwork teachers need to go through.
+Every two months I had to write dots for 300 students. One day I received a call from the heavens to solve this for all teachers in the world.
 
-My journey began in 2011 when I was a teacher in a tiny college
-in [Goiânia](https://www.google.com.br/search?q=goiânia&oq=goiânia) and
-I had to make all my classes diaries by hand. Every two months I had to
-write dots for 300 students. I then saw that I was in charge of a mission
-to find a way to make this process better.
+As you may expect, my first software never went into production.
+Three months into the building of that piece, I stopped being a teacher.
+I left Biological Sciences and rejoined the university but for Software Engineer Bachelor this time.
 
-My first software never went into production because of three months after I
-drop out from that college and from the University only to enter again,
-but for a Software Engineer Bachelor this time.
+I got a bachelor's in Software Engineering at the Universidade Federal de Goiás in 2016.
 
-So far I've worked with a lot of projects in a lot of different
-languages like PHP, C#, Java, Javascript, Groovy, and Ruby.
+In these more than ten years building products, I've been all over the place. I built one hologram, and too many Web Apps, Web APIs, and mobile Applications to count.
 
-With a lot of frameworks like Grails, Rails, React and NodeJS.
-
-For a lot of platforms like Desktop, WEB, Android, and Hololens.
-
+I am a professional developer in React, NodeJS, and Ruby on Rails, but I've worked with C#, Java, and Groovy on Grails.
 I have worked as a Linux DevOps as well.
 
-I love programming related topics like code quality, software engineer,
-best practices, design patterns and I write about it always that I have
-time to.
+I love programming topics like code quality, software engineering, and best practices.
 
-To be honest, I'm having some trouble remembering right now, so why don't you check out this [blogpost](https://blog.codelitt.com/contractor-to-cto/),it will answer **all** your questions.
+If this all isn't enough for you to know me, feel free to check out this [blog post](https://blog.codelitt.com/contractor-to-cto/), it will answer all your questions.
 
 ---
 
