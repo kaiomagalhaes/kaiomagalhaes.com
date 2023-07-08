@@ -228,3 +228,16 @@ hr::before {
 hr::before {
   left: 50%;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  color: white; text-align: center; padding: 8px; border: 1px solid transparent;
+}
+
+td {
+  text-align: center; padding: 8px; border: 1px solid transparent;
+}
