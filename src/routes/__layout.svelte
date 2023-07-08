@@ -12,25 +12,27 @@
 <nav
   class="w-full p-4 md:p-8 md:pr-0 2xl:w-80 lg:w-64 md:w-36 md:fixed md:h-screen font-cursive text-center flex flex-col-reverse md:flex-col overflow-y-auto"
 >
-  <a sveltekit:prefetch href="/art" class="-mt-8 -mb-4 mx-4 md:m-0">
-    <img
-      src="/assets/fox-day.webp"
-      alt="A peaceful little bookstore"
-      class="w-full only-light pixel aspect-square"
-    />
-    <img
-      src="/assets/fox-night.webp"
-      alt="A peaceful little bookstore"
-      class="w-full only-dark pixel aspect-square"
-    />
-  </a>
+  <div>
+    <a sveltekit:prefetch href="/art" class="-mt-8 -mb-4 mx-4 md:m-0">
+      <img
+        src="/assets/fox-day.webp"
+        alt="A peaceful little bookstore"
+        class="w-full only-light pixel aspect-square"
+      />
+      <img
+        src="/assets/fox-night.webp"
+        alt="A peaceful little bookstore"
+        class="w-full only-dark pixel aspect-square"
+      />
+    </a>
+  </div>
 
   <div class="flex-grow -mt-10 md:mt-0">
     <a sveltekit:prefetch href="/" class="lg:text-4xl text-3xl"> kaio magalhaes </a>
     <br />
     <a
       href="http://ipa-reader.xyz/?text=kaio%20ma%C9%A1a%CB%88%CA%8Eaes&voice=Joanna"
-      class="lg:text-xl text-lg hover:text-ochre-500">/kaio maɡaˈʎaes/</a
+      class="lg:text-xl text-lg hover:text-ochre-500 ">/kaio maɡaˈʎaes/</a
     >
 
     <div
