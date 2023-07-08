@@ -30,7 +30,8 @@
     <br />
     <a
       href="http://ipa-reader.xyz/?text=kaio%20ma%C9%A1a%CB%88%CA%8Eaes&voice=Joanna"
-      class="lg:text-xl text-lg hover:text-ochre-500">/kaio maɡaˈʎaes/</a >
+      class="lg:text-xl text-lg hover:text-ochre-500">/kaio maɡaˈʎaes/</a
+    >
 
     <div
       class="text-2xl md:text-base flex md:flex flex-col justify-center mt-4 items-center"
@@ -50,7 +51,7 @@
       </NavLink>
       <NavLink href="https://github.com/kaiomagalhaes/README" className="main-nav-link">
         <div class="square" />
-        my README
+        my manager README
       </NavLink>
     </div>
   </div>
