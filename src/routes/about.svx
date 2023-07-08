@@ -12,30 +12,30 @@ tagline: 'obligatory self-describing blurb'
 ### my history
 
 Even though I officially started in the engineering field in 2011, my career began when I was 8 years old,
-but I have to admit that I could only break electronics apart at the time. Years later, fortunately, I learned how to put them back together.
-The idea of building things has always been a part of me, but it took me a long time to define what I wanted to build, 
-and the moment I had my first computer in my hands, I knew I wanted to make software.
+but I have to admit that I could only break electronics apart at the time. Fortunately, years later I learned how to put them back together.
+The idea of building things has always been a part of me, but it took me a long time to define what I wanted to build. 
+The moment I had my first computer in my hands, I knew I wanted to make software.
 
 My software journey began in 2011 as a teacher in a tiny college in [Goiânia](https://goo.gl/maps/XB5XUK1ige3VgzLB9).
 
 While organizing the grades of my students, I saw the amount of work that one could automate, and that could save teachers time. 
-By then, I self-taught myself how to program in PHP to start a project that would help me with that. Soon after, I realized
+By then, I learned how to program in PHP to start a project that would help me with that. Soon after that, I realized
 I could make that hobby into a career. That same year, I began my bachelor's degree in Software Engineering.
 
 I completed my bachelor's degree in Software Engineering at the Federal University of Goiás in 2016.
 
-In 2015 I began working as a Software Engineer at [Codelitt](https://codelitt.com), a software consultancy company based in Miami - FL.
+In 2015, I began working as a Software Engineer at [Codelitt](https://codelitt.com), a software consultancy company based in Miami, FL, USA.
 
-In these more than ten years in the Software Industry, I've had the opportunity to write code,  lead teams, manage projects, and
+In these 10+ years in the Software Industry, I've had the opportunity to write code,  lead teams, manage projects, and
 lead departments. My passion is in building, but I came to realize that I also love to help others build.
 
-- As an engineer, I had the chance to build dozens of production-grade applications, from small to large, from simple to complex, from monoliths to microservices.
+- As an engineer, I had the opportunity to build dozens of production-grade applications, from small to large, from simple to complex, from monoliths to microservices.
 - As an architect, I've had the opportunity to design and build systems that millions of people use. 
 - As a team leader, I had the opportunity to lead teams of up to 15 people
-- As a manager, I had the chance to lead departments of up to 40 people.
-- As an executive, I had the chance to be the Chief Technology Officer in a company of 70+ people.
+- As a manager, I had the opportunity to lead departments of up to 40 people.
+- As an executive, I had the opportunity to be the Chief Technology Officer in a company of 70+ people.
 
-As an engineer, while I have an extensive experience in Ruby on Rails, NodeJS, Typescript, and React, programming languages, and frameworks
+As an engineer, while I have extensive experience in Ruby on Rails, NodeJS, Typescript, and React, programming languages, and frameworks
 are a means to an end. I am a firm believer that the best tool is the one that solves the problem at hand, and I am always open to learning new things.
 
 During my career, I've had the opportunity to work with programming languages/frameworks such as:
@@ -57,7 +57,7 @@ As a manager, I've brought out the best in my team members and helped them grow 
 improve their weaknesses. I've also had the opportunity to help them grow as people and help them with their struggles.
  [Always with Radical Candor](https://www.goodreads.com/en/book/show/29939161)
 
-If you want to read a piece not written by me, feel free to check out this [blog post](https://blog.codelitt.com/contractor-to-cto/)
+If you want to read a piece about me and my journey from contractor to CTO - though not written by me - please feel free to check out this [blog post](https://blog.codelitt.com/contractor-to-cto/)
 
 ---
 
