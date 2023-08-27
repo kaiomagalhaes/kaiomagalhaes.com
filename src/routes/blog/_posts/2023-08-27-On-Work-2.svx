@@ -5,9 +5,11 @@ title: "On work 2"
 
 Today while writing about my daily work, and thinking about the meaning of my relationship with my work, I made a pause and went on to read what others have to say about it. I stumbled on the text below from Kahlil Gibran, and I'll add it here as a remind to my future self.
 
-# On Work
-### Kahlil Gibran
-### 1883 – 1931
+```
+On Work
+
+Kahlil Gibran
+1883 – 1931
 
 Then a ploughman said, Speak to us of Work.
      And he answered, saying:
@@ -48,3 +50,6 @@ Then a ploughman said, Speak to us of Work.
      For if you bake bread with indifference, you bake a bitter bread that feeds but half man’s hunger.
      And if you grudge the crushing of the grapes, your grudge distils a poison in the wine.
      And if you sing though as angels, and love not the singing, you muffle man’s ears to the voices of the day and the voices of the night.
+```
+
+This poem can be found at [poets.org](https://poets.org/poem/work-4)
