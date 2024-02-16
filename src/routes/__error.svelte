@@ -27,7 +27,7 @@
 
 <div class="flex items-center justify-center p-8">
   <div>
-    <img src="/favicon-16x16.png" alt="The best doggo" class="w-32 m-auto my-8" />
+    <img src="/favicon-32x32.png" alt="The best fox" class="w-32 m-auto my-8" />
     <h1 class="text-xl mb-0">{title}</h1>
 
     {#if message}
