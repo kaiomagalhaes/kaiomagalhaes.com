@@ -29,7 +29,7 @@ const REDIRECTS = [
 export const handle: Handle = async ({ event, resolve }) => {
   if (event.platform?.context) {
     event.locals.sentry = new Toucan({
-      dsn: 'https://be15af41fe604f9db7f04dab5d7d3f0c@o1195031.ingest.sentry.io/6318040',
+      dsn: 'https://13586e4409df7a11e838f9aabab4f5fd@o433408.ingest.sentry.io/4506755938648064',
       request: event.request,
       context: event.platform.context,
       allowedHeaders: ['user-agent'],
