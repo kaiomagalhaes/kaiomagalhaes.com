@@ -1,6 +1,6 @@
-import type { Handle, HandleError } from '@sveltejs/kit';
+import type { Handle, HandleServerError } from '@sveltejs/kit';
 import POST_META from '$virtual/post-meta.json';
-import Toucan from 'toucan-js';
+import { Toucan } from 'toucan-js';
 
 const REDIRECTS = [
   {
@@ -32,8 +32,6 @@ export const handle: Handle = async ({ event, resolve }) => {
       dsn: 'https://13586e4409df7a11e838f9aabab4f5fd@o433408.ingest.sentry.io/4506755938648064',
       request: event.request,
       context: event.platform.context,
-      allowedHeaders: ['user-agent'],
-      allowedSearchParams: /(.*)/,
     });
 
     event.locals.sentry.setUser({ id: event.request.headers.get('cf-connecting-ip') });
@@ -56,7 +54,7 @@ export const handle: Handle = async ({ event, resolve }) => {
   return res;
 };
 
-export const handleError: HandleError = async ({ event, error }) => {
-  console.log('ERROR');
+export const handleError: HandleServerError = async ({ event, error }) => {
+  console.log('ERROR', error);
   event.locals.sentry?.captureException(error);
 };

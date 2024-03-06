@@ -3,6 +3,10 @@ title: 'about'
 tagline: 'obligatory self-describing blurb'
 ---
 
+<script>
+	import WaveText from "$lib/components/WaveText.svelte";
+</script>
+
 <h1 class="text-center text-secondary text-base">
   obligatory self-describing blurb
 </h1>

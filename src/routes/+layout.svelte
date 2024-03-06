@@ -10,25 +10,23 @@
 </script>
 
 <nav
-  class="w-full p-4 md:p-8 md:pr-0 2xl:w-80 lg:w-64 md:w-36 md:fixed md:h-screen font-cursive text-center flex flex-col-reverse md:flex-col overflow-y-auto"
+  class="w-full p-4 md:p-8 md:pr-0 2xl:w-80 lg:w-64 md:w-36 md:fixed md:h-screen font-cursive text-center flex flex-col-reverse md:flex-col overflow-y-auto overflow-x-hidden"
 >
-  <div>
-    <a sveltekit:prefetch href="/art">
-      <img
-        src="/assets/fox-day.webp"
-        alt="A peaceful little bookstore"
-        class="w-full only-light pixel aspect-square"
-      />
-      <img
-        src="/assets/fox-night.webp"
-        alt="A peaceful little bookstore"
-        class="w-full only-dark pixel aspect-square"
-      />
-    </a>
-  </div>
+  <a href="/art" class="-mt-8 -mb-4 mx-4 md:m-0 hover:scale-105">
+    <img
+      src="/assets/fox-day.webp"
+      alt="A peaceful little bookstore"
+      class="w-full dark:hidden pixel aspect-square"
+    />
+    <img
+      src="/assets/fox-night.webp"
+      alt="A peaceful little bookstore"
+      class="w-full hidden dark:block pixel aspect-square"
+    />
+  </a>
 
   <div class="flex-grow -mt-10 md:mt-0">
-    <a sveltekit:prefetch href="/" class="lg:text-4xl text-3xl"> kaio magalhaes </a>
+    <a href="/" class="lg:text-4xl text-3xl"> kaio magalhaes </a>
     <br />
     <a
       href="http://ipa-reader.xyz/?text=kaio%20ma%C9%A1a%CB%88%CA%8Eaes&voice=Joanna"
@@ -51,7 +49,7 @@
         <div class="square" />
         about
       </NavLink>
-      <NavLink href="https://github.com/kaiomagalhaes/README" className="main-nav-link">
+      <NavLink href="https://github.com/kaiomagalhaes/README"  className="main-nav-link">
         <div class="square" />
         my manager README
       </NavLink>
@@ -80,17 +78,8 @@
 </div>
 
 <style lang="postcss">
-  @mixin light {
-    --menu-btn-color: theme('colors.stone.400');
-  }
-
-  @mixin dark {
-    --menu-btn-color: var(--color-primary);
-  }
-
   .menu-btn {
-    @apply text-sm;
-    color: var(--menu-btn-color);
+    @apply text-sm text-stone-400 dark:text-primary;
   }
 
   :global(.main-nav-link) {
