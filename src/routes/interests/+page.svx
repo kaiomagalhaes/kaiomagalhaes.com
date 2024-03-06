@@ -3,6 +3,10 @@ title: 'interests'
 tagline: 'things I like and you might too'
 ---
 
+<script>
+	import WaveText from "$lib/components/WaveText.svelte";
+</script>
+
 <h1 class="text-secondary text-base">
   things I like and you might too
 </h1>
