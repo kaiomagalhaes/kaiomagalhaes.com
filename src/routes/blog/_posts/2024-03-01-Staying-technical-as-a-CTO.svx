@@ -1,5 +1,5 @@
 ---
-title: 'How to keep technical as a CTO'
+title: 'How to keep building your engineering skills as a CTO'
 ---
 
 One of my first thoughts when I became a CTO was _I won't keep up with the latest technologies anymore_. My second one was _There must be a way to keep on learning new tools while also managing people, I only need to find out how_. It is important to understand that not every CTO wants to continue being an engineer. Besides, depending on the size
