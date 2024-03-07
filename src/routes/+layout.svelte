@@ -15,12 +15,12 @@
   <a href="/art" class="-mt-8 -mb-4 mx-4 md:m-0 hover:scale-105">
     <img
       src="/assets/fox-day.webp"
-      alt="A peaceful little bookstore"
+      alt="A peaceful little fox"
       class="w-full dark:hidden pixel aspect-square"
     />
     <img
       src="/assets/fox-night.webp"
-      alt="A peaceful little bookstore"
+      alt="A peaceful little fox"
       class="w-full hidden dark:block pixel aspect-square"
     />
   </a>

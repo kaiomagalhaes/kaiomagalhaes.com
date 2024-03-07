@@ -7,12 +7,12 @@
     <div class="md:-mt-12">
       <img
         src="/assets/fox-day.webp"
-        alt="A peaceful little bookstore"
+        alt="A peaceful little fox"
         class="w-full dark:hidden pixel aspect-square"
       />
       <img
         src="/assets/fox-night.webp"
-        alt="A peaceful little bookstore"
+        alt="A peaceful little fox"
         class="w-full hidden dark:block pixel aspect-square"
       />
     </div>
