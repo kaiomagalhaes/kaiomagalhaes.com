@@ -26,8 +26,6 @@
 
   const toggleTheme = () => {
     document.body.classList.remove($theme);
-    console.log(theme);
-
     if ($theme === 'system') {
       // If the theme is set to system, then set it to the preferred default
       // theme and toggle based on that.
@@ -65,7 +63,6 @@
 </label>
 
 <style lang="postcss">
-
   .toggle {
     --width: 3em;
     --height: calc(var(--width) / 2);
@@ -84,7 +81,9 @@
     image-rendering: pixelated;
     background-image: url('/assets/sun.svg'), url('/assets/moon.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: top 0.3em right 0.4em, top 0.385em left 0.5em;
+    background-position:
+      top 0.3em right 0.4em,
+      top 0.385em left 0.5em;
     background-size: 0.85em, 0.75em;
     position: relative;
     width: var(--width);
