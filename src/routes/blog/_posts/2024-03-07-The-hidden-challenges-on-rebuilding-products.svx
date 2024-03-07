@@ -17,8 +17,6 @@ The goal was _simple_:
 
 I hope you were able to see the irony in _simple_ over there. When I first reviewed this project I was surprised about its size and I was expecting it to be an herculean effort. However, things were set to be much worse than I thought. Rebuilding an application from an existing one has way too many hidden challenges that nobody talks when they are going through a sales cycle. My initial impression was that it was supposed to be easier to build a product from an existing one, but as one of my preferred blogposts of all times is titled: [Reality has a surprising amount of detail](https://web.archive.org/web/20240218135401/https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail).
 
-I don't think I'll ever forget when someone from the client's team mentioned "Do you really understand the complexity of the current system?" and my naive self thinking "It can't be that complex", but as I wasn't an engineer on the project it would have been impossible for me to know. Looking back I understand that I didn't know what I didn't know.
-
 As we started the rebuild we started facing many challenges that nobody warned me about before.
 
 ### Easter eggs
