@@ -12,11 +12,11 @@
 </script>
 
 <svelte:head>
-  <title>kaio magalhaes | {blogTitle}{formattedTitle}</title>
+  <title>{blogTitle}{formattedTitle}</title>
 
   <meta property="og:url" content="https://www.kaiomagalhaes.com{$page.url.pathname}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="kaio magalhaes | {title.replaceAll('(nbsp)', ' ')}" />
+  <meta property="og:title" content="{title.replaceAll('(nbsp)', ' ')}" />
   <meta property="og:image" content="https://www.kaiomagalhaes.com/assets/og-image.png" />
   <meta property="og:description" content={tagline || 'A blog about (mostly) computery things'} />
 
