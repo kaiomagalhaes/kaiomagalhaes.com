@@ -1,0 +1,7 @@
+---
+title: 'On the sublime feeling of deleting code'
+---
+
+Today while going through [The codeless code](https://thecodelesscode.com/) it came to me that my happiest moments in programming are not when I'm writing code, but when I am deleting it. The reason is simple, "no code" means both no maintenance and no bugs. A code that doesn't need to exist and is removed will not cause problems when migrating to a new version of the programming language or framework. Don't get me wrong, I understand that there is no such thing as removing complexity just by deleting a piece of code (unless it means removing a functionality altogether). More often than not I find myself deleting lines because I found a better way of handling a flow. I found a library in which smarter people than me found a better way to solve the problem I was facing. 
+
+There is no such thing as removing complexity, but there is this sublime feeling of placing complexity where it should be. 
