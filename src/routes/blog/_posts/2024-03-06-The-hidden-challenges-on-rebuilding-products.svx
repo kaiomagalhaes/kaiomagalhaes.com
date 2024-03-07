@@ -1,0 +1,64 @@
+---
+title: 'The hidden challenges of rebuilding products'
+---
+
+Every engineer I've ever worked with, at some point, said: _Let's rebuild this product_. One day when evaluating a SaaS, that was my feedback to my CEO: _Instead of buying it we should just build it from scratch, we'll get a better buck for our money_. Ultimately we decided neither to buy or to build it. However, knowing what I know today, I wouldn't be so fast into suggesting to rebuild that. The challenges we face when building a new product and when buildong one based on another that is currently in production and with constant users are two completely different ones. The best comparison is in trying to build a brand new house or rebuild one while also living inside of it.
+
+## A background story
+Here at Codelitt, we are about to deliver one of the biggest rebuilts of the company. An application that has been around for many years and that the customer wanted to recreate the experience. The way it arrived to us, it was an application with a mix of React and BackboneJS in the Frontend and .NET in the backend.
+
+The goal was _simple_:
+
+- Redesign the entire frontend with over 500 pages and thousands of functionalities
+- Implement an architecture to last the next ten years
+- Build it fast
+- Deliver it partially so the users can start seeing the benefits of the new application for new features and the old version for the non updated ones
+
+I hope you were able to see the irony in _simple_ over there. When I first reviewed this project I was surprised about its size and I was expecting it to be an herculean effort. However, things were set to be much worse than I thought. Rebuilding an application from an existing one has way too many hidden challenges that nobody talks able when they are going through a sales cycle. My initial impression was that it was supposed to be easier to build a product from an existing one, but as one of my preferred blogposts of all times is titled [Reality has a surprising amount of detail](https://web.archive.org/web/20240218135401/https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail).
+
+I don't think I'll ever forget when someone from the client's team mentioned "Do you really understand the complexity of the current system?" and my naive self thinking "It can't be that complex", but as I wasn't an engineer on the project it would have been impossible for me to know. Looking back I understand that I didn't know what I didn't know.
+
+As we started the rebuild we started facing many challenges
+
+### Easter eggs
+
+The first hidden challenge we found was the amount of easter eggs. When we think about building a new application we organize the tasks in a way that we achieve what we want it to have. When we are rebuilding one we need to replicate the current behavior. The problem is: What happens when there is no writen definition of current behavior?
+
+Well, knowing the application exists then the definition of current behavior is in the code, but the project and product managers are not close to the codebase. This means that the engineers are the ones who really know what the current application does. 
+
+What happened is day every other week we would find a set of functionalities that nobody was aware that it even existed. And it kept appearing on the upcoming months. Needless to say it was impossible to get the estimation right from the beginning
+
+### Making it right the second time
+
+Because usually we are basing a new design on top of an existing one it ends up being impossible to be umbiased. Quite a few times we found ourselves asking if we were building it right the second time, but because the current backend worked in a specific way we had our hands tied. Some functionalities were over complex and there was just nothing we could do that wouldn't make the cost of it prohibitive.
+
+It is like wanting to change the places of the walls in your house without being able to remove the ceiling. More often than not it is prohibitive.
+
+### Recreating functionalities go beyond the ticket definition
+
+When we are creating a new feature in a product, usually we need to worry about two things: How the current code is set and what we need to change. When rebuilding an application we add a third member there, we need to understand how the current application does it. Here we can get into all sorts of problems, but I'll focus on the three biggest ones.
+
+1. The code is written in a different programming language/framework
+2. The code readability is poor
+3. The functionality is complex
+
+In my scenario we've hit these three. Because the existing application was built over the years, the original team had to work with the technology constraints of their time. They had multiple technologies mixed together and not in a fun way. Because of that, it became expensive for our team to understand the current behavior properly and then recreate it in the new application. Here we have a two sided view of the situation
+
+a) Because we have an existing code it makes it easy because we don't need to spend time thinking about which data flow to folow
+b) Because we have an existing code it makes it hard for us to build things the right way because we need to follow the current data flow
+
+and I believe that it is a mixed of both in different situations. Lack of freedom can be good because it limits our options, it can be bad for the same reason. Having the team having to understand code in a different framework is also problematic because it takes time.
+
+
+- Every long term project has hidden secrets. Functionalities that nobody on the team is aware of, but that the users might be using.
+- Most of the product knowledge ends up in the head of the engineers, not the product team
+- The current product isn't necessarily the right one, replicating it might be a mistake
+- Translating functionalities from one codebase to another might be challenging and can require knowledge on multiple technologies
+
+NOTES
+
+- Add disclaimer this is for huge applications
+
+Solution:
+
+- Deep discovery of current functionalities. This might mean replicate the current ones, or take an opportunity to clean it up by checking which features are in use (how to do it though? How to check which features are in use?)
