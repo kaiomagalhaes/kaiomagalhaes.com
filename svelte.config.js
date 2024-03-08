@@ -17,8 +17,7 @@ const config = {
       directives: {
         'script-src': [
           'self',
-          'sha256-zfRvLbR3zlaekiwICEa9S3jjc9sLhqYte6tX4ScxNSI=',
-          'sha256-weAyrPtk9s1QpDfc5D5fH5bUfhVFNjL0mNVRLvTDoTY=',
+          'sha256-0/bmvInFLm55DLyOqM1DCdJLpS1kxiBLUbaiWlglqLU='
         ],
         'connect-src': ['self'],
         'style-src': ['self', 'unsafe-inline', 'https://fonts.googleapis.com'],

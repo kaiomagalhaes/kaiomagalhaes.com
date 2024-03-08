@@ -6,8 +6,12 @@
 
   import SocialLinks from '$lib/components/SocialLinks.svelte';
 
+  import Analytics from '$lib/analytics.svelte';
+
   let menuOpen = false;
 </script>
+
+<Analytics />
 
 <nav
   class="w-full p-4 md:p-8 md:pr-0 2xl:w-80 lg:w-64 md:w-36 md:fixed md:h-screen font-cursive text-center flex flex-col-reverse md:flex-col overflow-y-auto overflow-x-hidden"
