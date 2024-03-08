@@ -2,47 +2,47 @@
 title: 'The hidden challenges of rebuilding products'
 ---
 
-Every engineer I've ever worked with, at some point, said: _Let's rebuild this product_. One day when evaluating a SaaS, the feedback I gave to my CEO was: _Instead of buying it we should just build it from scratch, we'll get a better buck for our money_. Ultimately we decided neither to buy or to build it. However, knowing what I know today, I wouldn't have been so fast into suggesting to rebuild that. The challenges we face when building a new product and when rebuildin are two completely different ones. The best comparison is in trying to build a brand new house or rebuild one while also living inside of it. Now, let me tell you a little bit of what we faced here.
+At some point, every engineer I've ever worked with has said "Let's rebuild this product". One day, when evaluating a SaaS product, the feedback I gave my CEO was: "Instead of buying it, we should just build it from scratch. We’ll get more bang for our buck". Ultimately, we decided neither to buy it nor to build it. However, knowing what I know today, I wouldn't have been so fast to suggest to rebuilding that. The challenges one faces when building a new product versus when rebuilding an existing one are two completely different challenges. The best comparison is trying to build a brand new house, or rebuilding one while also living inside of it. Now, let me tell you a little bit about what we faced here.
 
 ## A background story
 
-Here at Codelitt, we are about to deliver one of the biggest projects to date. An application that has been around for many years and that the customer wanted to improve the experience by redesigning and rebuilding the frontend completely. The way it arrived to us, it was an application with a mix of React and BackboneJS in the Frontend and .NET in the backend.
+Here at Codelitt, we are about to deliver one of our biggest projects to date. It is an application that has been around for many years. The customer wanted to improve the experience by redesigning and rebuilding the frontend completely. The first version of the application was made of a mix of React and BackboneJS in the front end and .NET in the backend.
 
 The goal was _simple_:
 
 - Redesign the entire frontend with over 500 pages and thousands of functionalities.
 - Implement an architecture to last the next ten years.
 - Build it fast.
-- Deliver it partially so the users can start seeing the benefits of the new application for new features.
+- Deploy it incrementally so its users can start seeing the benefits of the new application with its new features.
 
-I hope you were able to see the irony in _simple_ over there. When I first reviewed this project I was surprised about its size and I was expecting it to be an herculean effort. However, things were set to be much worse than I thought. Rebuilding an application from an existing one has way too many hidden challenges that nobody talks when they are going through a sales cycle. My initial impression was that it was supposed to be easier to build a product from an existing one, but as one of my preferred blogposts of all times is titled: [Reality has a surprising amount of detail](https://web.archive.org/web/20240218135401/https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail).
+I hope you were able to spot the irony in the word "simple" over there. When I first reviewed this project, I was surprised about its size, and I was expecting it to be a herculean effort. However, things turned out to be far more challenging than I thought. Rebuilding an existing application has way too many hidden challenges that nobody talks about when they are going through a sales cycle. My initial impression was that it was supposed to be easier to build a product from an existing one, but as one of my preferred blog posts of all times is titled: [Reality has a surprising amount of detail](https://web.archive.org/web/20240218135401/https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail).
 
-As we started the rebuild we started facing many challenges that nobody warned me about before.
+As we started the rebuild, we started facing many challenges that nobody warned me about before.
 
 ### Easter eggs
 
-The first hidden challenge we found was the amount of easter eggs. When we think about building a new application we organize the tasks in a way that we achieve what we want it to have. When we are rebuilding one we need to replicate the current behavior. The problem is: What happens when there is no writen definition of current behavior? What to do when nobody knows all the features?
+The first hidden challenge we found was the amount of easter eggs. When we think about building a new application, we organize the tasks in a way that allows us to achieve the desired behavior. When we are rebuilding one we need to replicate the current behavior. The problem is, what happens when there is no written definition of current behavior? What do you do when there's no source of truth for the current features?
 
-Well, knowing the application exists then the definition of current behavior is in the code, but the project and product managers are not close to the codebase. This means that the engineers are the ones who really know what the current application does. What happened is day every other week we would find a set of functionalities that nobody was aware that it even existed. Needless to say it was impossible to get our original estimation right.
+Well, given the application exists, then the definition of current behavior is in the code. However the project and product managers are not close to the codebase. That means that the engineers are the ones who know what the current application does. What happened is that every other week, we would find a set of functionalities that nobody was aware even existed. Needless to say, it was impossible to get our original estimation right.
 
 ### Making it right the second time
 
-Because usually we are basing a new design on top of an existing one it ends up being impossible to be umbiased. Quite a few times we found ourselves asking if we were building it right the second time, but because the current backend worked in a specific way we had our hands tied. Some functionalities were overly complex and there was just nothing we could do that wouldn't make the cost of it prohibitive.
+Since we are basing a new design on top of an existing one, it ends up being impossible to be unbiased. Quite a few times, we found ourselves asking if we were building it right the second time, but because the current backend worked in a specific way, we had our hands tied. Some functionalities were overly complex, and there was just nothing we could do that wouldn't make the cost of it prohibitive.
 
-It is like wanting to change the places of the walls in your house without being able to remove the ceiling. More often than not it is not possible.
+It is like wanting to change the places of the walls in your house without being able to remove the ceiling. More often than not, it's simply impossible.
 
-### Recreating functionalities go beyond the ticket definition
+### Recreating functionalities goes beyond the ticket definition
 
-When we are creating a new feature in a product, usually we need to worry about two things: How the current code is set and what we need to change. When rebuilding an application we add a third member there, we need to understand how the current application does it. Here we can get into all sorts of problems, but I'll focus on the three biggest ones.
+When we are creating a new feature in a product, we usually need to worry about two factors: How the current code is set up, and what we need to change. When rebuilding an application, we add a third variable here,understanding how the current application does it. With this third variable, we can get into all sorts of problems, but I'll focus on the three biggest ones:
 
 1. The code is written in a different programming language/framework
 2. The code readability is poor
 3. The functionality is complex
 
-In my scenario we've hit these three. Because the existing application was built over the years, the original team had to work with the technology constraints of their time. They had multiple technologies mixed together and not in a fun way. Because of that, it became expensive for our team to understand the current behavior properly and then recreate it in the new application. Here we have a two sided view of the situation
+In my scenario, we've hit all these three. Due to the fact that the existing application was built over many years, the original team had to work with the technology constraints of their time. They had multiple technologies mixed - and not in a fun way. With that, it became expensive for our team to properly understand the application's current behavior, and be able to recreate that behavior in the new application. Here, we have a two-sided view of the situation:
 
-a) Because we have an existing code it makes it easy because we don't need to spend time thinking about which data flow to folow
+a) Since we have an existing code, it makes it _easier_ because we don't need to spend time thinking about which data flow to follow
 
-b) Because we have an existing code it makes it hard for us to build things the right way because we need to follow the current data flow
+b) Since we have an existing code, it makes it _harder_ for us to rebuild the application the right way because we need to follow the current data flow
 
-and I believe that it is a mixed of both in different situations. Lack of freedom can be good because it limits our options, it can be bad for the same reason. Having the team having to understand code in a different framework is also problematic because it takes time.
+I ultimately believe that it is a mix of both, depending on the situation. A lack of freedom can be a good thing because it limits our options, and it can also be bad for the same reason. Having the team having reverse-engineer the code in a different framework is also problematic, because it takes lots of time.
