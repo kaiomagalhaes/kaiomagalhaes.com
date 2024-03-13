@@ -41,12 +41,12 @@ It is like wanting to change the places of the walls in your house without being
 
 When we are creating a new feature in a product, we usually need to worry about two factors:
 
-1 - How the current code is set up
-2 - what we need to change. When rebuilding an application
+- How the current code is set up
+- what we need to change. When rebuilding an application
 
 When we are recreating a project wee need to add a third factor
 
-3 - Understand how the current application does it
+- Understand how the current application does it
 
 With this third variable, we can get into all sorts of problems, but I'll focus on the three biggest ones:
 
@@ -64,4 +64,4 @@ I ultimately believe that it is a mix of both, depending on the situation. A lac
 
 #### But there is a bright side!
 
-This was not our first time modernizing an application, and it won't be the last. Once we recognize these challenges, bringing new life to old user experiences can be done in a timely (and often in a budget) manner. Next I'll talk about how to successfuly avoid these traps and set your team for success when rebuilding a large application. Stay tune!
+This was not our first time modernizing an application, and it won't be the last. Once we recognize these challenges, bringing new life to old user experiences can be done in a timely (and often in a budget) manner. Next I'll talk about how to successfuly avoid these traps and set your team for success when rebuilding a large application. Stay tuned!
