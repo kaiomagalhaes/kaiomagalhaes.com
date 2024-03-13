@@ -21,17 +21,23 @@ As we started the rebuild, we started facing many challenges that nobody warned 
 
 ### Easter eggs
 
+![Easter Eggs](/assets/blog/hidden-functionalities/easter-egg.jpg "Easter eggs")
+
 The first hidden challenge we found was the amount of easter eggs. When we think about building a new application, we organize the tasks in a way that allows us to achieve the desired behavior. When we are rebuilding one we need to replicate the current behavior. The problem is, what happens when there is no written definition of current behavior? What do you do when there's no source of truth for the current features?
 
 Well, given the application exists, then the definition of current behavior is in the code. However the project and product managers are not close to the codebase. That means that the engineers are the ones who know what the current application does. What happened is that every other week, we would find a set of functionalities that nobody was aware even existed. Needless to say, it was impossible to get our original estimation right.
 
 ### Making it right the second time
 
+![Making it right the second time](/assets/blog/hidden-functionalities/making-it-right-second-time.png "Making it right the second time")
+
 Since we are basing a new design on top of an existing one, it ends up being impossible to be unbiased. Quite a few times, we found ourselves asking if we were building it right the second time, but because the current backend worked in a specific way, we had our hands tied. Some functionalities were overly complex, and there was just nothing we could do that wouldn't make the cost of it prohibitive.
 
 It is like wanting to change the places of the walls in your house without being able to remove the ceiling. More often than not, it's simply impossible.
 
 ### Recreating functionalities go beyond the ticket definition
+
+![Recreating functionalities go beyond the ticket definition](/assets/blog/hidden-functionalities/recreating-functionalities.jpg "Recreating functionalities go beyond the ticket definition")
 
 When we are creating a new feature in a product, we usually need to worry about two factors:
 
