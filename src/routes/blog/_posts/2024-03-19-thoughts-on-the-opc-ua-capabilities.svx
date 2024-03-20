@@ -349,8 +349,6 @@ Now the last, but not least important part, visualizing the data. Because we are
 3. Set the X axis as the timestamp
 4. Set the Y axis as the luxValue
 
-It should look like this one here
-
-https://charts.mongodb.com/charts-storyforge-bvfdd/public/dashboards/65fb072d-ad57-4237-81e3-de05c32caed4
+It should look like this one [here](https://charts.mongodb.com/charts-storyforge-bvfdd/public/dashboards/65fb072d-ad57-4237-81e3-de05c32caed4)
 
 Now you have an integration between your Arduino and MongoDB! You can use this flow for any other sensor you want, like temperature, humidity, and so on!
