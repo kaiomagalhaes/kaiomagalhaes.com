@@ -99,6 +99,9 @@ Your Arduino configuration should look like the one below:
 
 ![Circuit](/assets/blog/upcua-arduino/circuit.jpg 'Circuit')
 
+Here you can see mine:
+
+![LDR light sensor](/assets/blog/upcua-arduino/real-circuit.jpg 'LDR light sensor')
 #### 2. Upload the following content to your Arduino
 
 ```arduino
