@@ -10,9 +10,9 @@ I loved this problem because it is a simple and direct one, and I started thinki
 
 # The Problem
 
-Because I don't have anything close to melting plastic in my office, I decided to tone it down. A close comparison to a thermometer is a lightning sensor. Both provide numbers that are readings from the real world. I decided to create a device that would:
+Because I don't have anything close to melting plastic in my office, I decided to tone it down. A close comparison to a thermometer is a light sensor. Both provide numbers that are readings from the real world. I decided to create a device that would:
 
-1. Read the lightning level of my office using a light sensor and an Arduino
+1. Read the light level of my office using a light sensor and an Arduino
 2. Send the data to an OPC UA client working inside a Raspberry PI
 3. Have the client sending the information to the OPC UA Server
 4. Upload the data to a MongoDB database hosted in MongoAtlas
