@@ -6,6 +6,8 @@
   export let title;
   /** @type {string} */
   export let tagline;
+  /** @type {string?} */
+  export let headerImage;
 
   $: formattedTitle = title ? formatTitle(title) : '';
   $: blogTitle = typeof tagline === 'string' ? 'blog | ' : '';
@@ -16,11 +18,21 @@
 
   <meta property="og:url" content="https://www.kaiomagalhaes.com{$page.url.pathname}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{title.replaceAll('(nbsp)', ' ')}" />
-  <meta property="og:image" content="https://www.kaiomagalhaes.com/assets/og-image.png" />
+  <meta property="og:title" content={title.replaceAll('(nbsp)', ' ')} />
+  <meta
+    property="og:image"
+    content={headerImage
+      ? `https://www.kaiomagalhaes.com${headerImage}`
+      : 'https://www.kaiomagalhaes.com/assets/og-image.png'}
+  />
   <meta property="og:description" content={tagline || 'A blog about (mostly) computery things'} />
 
-  <meta name="twitter:image" content="https://www.kaiomagalhaes.com/assets/og-image.png" />
+  <meta
+    property="twitter:image"
+    content={headerImage
+      ? `https://www.kaiomagalhaes.com${headerImage}`
+      : 'https://www.kaiomagalhaes.com/assets/og-image.png'}
+  />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@kaiomagalhaes" />
   <meta name="twitter:creator" content="@kaiomagalhaes" />

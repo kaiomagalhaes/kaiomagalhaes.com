@@ -1,5 +1,6 @@
 ---
 title: 'Lessons learned in the last year building AI products at Codelitt'
+headerImage: '/assets/blog/ai-lessons/lessons.webp'
 ---
 
 November of 2022 is a month that will go down in history as the one in which the world was all looking at the same shiny new thing: [ChatGPT](https://openai.com/blog/chatgpt). This revelation captivated the imaginations of countless developers - including myself, as I immediately started building proofs of concept on top of it. In hindsight, I realize the ideas I came up with were the same ideas that most individuals and companies were trying at the time. Previously expensive products were now achievable at a fraction of the cost, making them much more accessible.
