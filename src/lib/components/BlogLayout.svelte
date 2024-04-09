@@ -8,6 +8,8 @@
   export let tagline;
   /** @type {string?} */
   export let headerImage;
+  /** @type {string} */
+  export let published;
 
   $: formattedTitle = title ? formatTitle(title) : '';
   $: blogTitle = typeof tagline === 'string' ? 'blog | ' : '';
@@ -26,6 +28,7 @@
       : 'https://www.kaiomagalhaes.com/assets/og-image.png'}
   />
   <meta property="og:description" content={tagline || 'A blog about (mostly) computery things'} />
+  <meta name="publish_date" property="og:publish_date" content={published} />
 
   <meta
     property="twitter:image"
