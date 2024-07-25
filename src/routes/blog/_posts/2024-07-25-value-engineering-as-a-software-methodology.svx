@@ -1,0 +1,111 @@
+---
+title: 'Value engineering as a software methodology'
+---
+
+Over my career, I've seen many attempts to answer the question, "What is the best way to build software". After being in the industry for over a decade, I concluded that any viable answer would need to consider at least the following factors:
+- Financial resources
+- Desired timeline
+- Roadmap maturity, i.e., the amount of product information ahead of the design and development phases
+
+Given the numerous variables involved, I decided to focus on a more practical and applicable question:
+
+> "What is one engineering method that will give me the best ROI in most situations?"
+
+Whenever I saw myself talking to a CTO friend of mine, the same sentence kept coming up:
+> "As an engineer, we need to provide value"
+
+We would say it as a critique of the practices that keep showing up in software engineering circles. Every day, we release new tools for particular problems. Yet, we see the community picking them up to solve challenges they don't have. In parallel to these conversations, I started working as the DevOps engineer of a 12-year-old product. While going through the onboarding I discovered that the total downtime in the entire product's history was only 3 hours. The strategy for that? A single Linux server with Apache running a PHP Application. Oh, and let's not forget a cron job to clean up the logs. That's it—simple and effective.
+
+I am not here to advocate doing the bare minimum on a product, but to raise a question about what we really need in our applications. Upon looking at these two situations together I started noticing the amount of decisions we make daily to avoid future problems we won't have. Too often we over-engineer our solutions because we once upon a time needed "it" on a project.
+
+Let's talk about value engineering as a guiding method for software building.
+
+When I began writing this piece, I researched "Value Engineering". I discovered that the term was first coined in 1947 by [Lawrence D. Miles at General Electric](https://en.wikipedia.org/wiki/Value_engineering). Miles aimed to find cost-effective ways to achieve functions without compromising quality. We define Value in our context as a function of cost. Thus, we can increase value either by adding functions or decreasing costs. 
+
+Before we get too deep into a technical conversation, let's talk about the meaning of *value*. At its core, value means money.  This money can come in the form of an increase in revenue or a decrease in costs. In SaaS products, we also add value through functionalities by increasing the product's stickiness. The longer a user sticks to a SaaS, the more revenue they generate. In summary, creating value to a customer though software means providing benefits that exceed the costs, wether via direct or indirect financial gains.
+
+### Principles of Value Engineering
+#### a) Every logic implementation needs to add value to the user
+In 2003 we had a [study](https://www.researchgate.net/publication/220309761_Reading_Writing_and_Code) by Diomidis Spinellis showing that developers spend most of their time reading code. That means that the less code we have, the better. Another way of seeing it is that every line of code needs to add value to the software we are building. Whenever an engineer reads through a function that doesn't add value, it is time we are losing. I'll be the first to say that I've been one big offender of this rule. Over the years I've seen pieces of logic that we would add "in case we need it in the future".  The reality is that more often than not it never came to be necessary. Unfortunately,  it would still take time for another developer to understand it. Thus, we need to make sure we are always tying implementations to real-world requirements.
+
+#### b) Do not use integrations or extra tools unless you need them
+This is one of my biggest concerns around the amount of tooling available. Because we have many options, it is easy to go for what is most talked about in our networks. One example is engineers proposing [GraphQL](https://graphql.org/) because [Github](https://github.com/) uses it. However, because one technology works for a big company, it doesn't mean it works for our problem at hand. 
+
+One problem with adding integrations and tooling is maintenance. For every piece you add, the highest the chance of someone on your team not having the necessary experience to maintain it.
+
+A rule of thumb is: do not add a new technology or third-party integration unless you have no other choice.
+
+Examples I've seen in the wild:
+
+1. Using [microservices](https://microservices.io/) for small applications that don't need to scale
+2. Using [Lambda functions](https://www.freecodecamp.org/news/python-lambda-function-explained) unnecessarily
+3. Integrations with analytics that nobody cares about
+4. Usage of [GraphQL](https://graphql.org/) when [REST](https://www.codecademy.com/article/what-is-rest) would be enough.
+
+#### c) Do not optimize for scale unless explicitly requested.
+A rookie mistake when building a product is trying to optimize early. Another one is to worry about scalability when there are no plans for scaling. A few days ago when managing a project I faced this problem. One engineer was opposed to a solution based on "what happens when we have thousands of users?". While this might be a real issue in other projects, in this one it wasn't. Our user base was set to be under 300 users and that's it. Our budget was small and we had to focus on the problem at hand instead of worrying about problems that we did not have.
+
+With that in mind, there are a few guidelines I propose for this:
+
+1. Only use technologies your team is comfortable with unless requested. Most technologies can achieve the same goal, but knowledge of each is necessary. I found out that more often than not, the wrong tool with the right knowledge is better than the opposite. Anything we are not familiar with increases the chances of creating bugs. 
+2. Do not keep processes that slow you down unless they add real value to the user.
+3. Do not copy functionalities from other projects unless they have the same problem.
+
+#### d) Be realistic about your scope and plan for it
+When evaluating architecture or functionality, it's crucial to be realistic about the problem we're solving. We often confuse short-term solutions with long-term ones. When aiming to provide value now, we must consider future impacts. The goal of Value Engineering is not to focus on today and neglect tomorrow. Instead, we should build what we need for the appropriate timeframe.
+
+It is worth to mention that not every function of the product is visible to the user. Security for instance, you can neglect it and it gan go unoticed. Unfortunately, One day we might face a data breach, and then we lost the trust of every single user. We should consider non-functional requirements as part of the scope and we should be plan for it. With that said, different non-functional requirements will be necessary in different steps of the project. We should avoid from trying to predict every single one and implement then on day one.
+
+#### e) Communicate the tradeoffs to your peers and customers
+
+Whenever I'm working with other people I have 3 main rules:
+> Communicate, communicate communicate
+
+When working on a team it is hard to have a full view of the impact our decisions will have. Thus it is necessary to communicate the tradeoffs of our solutions to those it will impact. For example, if we decide to build our image processing engine it will mean a lower cost in services, but a higher cost in implementation and maintenance. At the same time, it will provide us with higher control and security of our data. To know if it is worth it, you need to evaluate the budget for the functionality, the timeline, security, and maintenance concerns. Unless you're the solo engineer in the project, it will be hard to have all the answers you need.
+
+You should always make sure to align the decisions with the parts involved. This will also help in the decision-making when you need to go back and change something.
+
+### Concepts and Thoughts on Value Engineering
+Now that we have concrete examples, let's try to answer the following questions:
+
+1. What is "Value (software) engineering" and what does it mean?
+2. How does it affect me as a CTO?
+3. How does it affect me as an engineer?
+4. How does it affect timelines?
+5. How does it affect my customers?
+
+#### 1. What is "Value (software) engineering" and what does it mean?
+
+It is a Software Engineering discipline that focuses on generating value through software. It aims to direct the product development at creating an output in which the user is better thanks to it. It defines that every decision needs to be through the lens of "How does this add value to the final user in the current phase of the application?". This means that we write every piece of code with the final user and available resources in mind (time is a resource).  While it might sound simple, it is easy to fall into the many traps laid down by our daily distractions and personal decisions.
+
+#### 2. How does it affect me as a CTO?
+
+As a CTO, if I focus on only what provides value to my customers, I'm able to maximize their chances of succeeding. Having a successful customer means:
+
+1. A higher likelihood of continuous business thus continuous revenue. 
+2. A higher chance of referrals.
+3. A bigger impact on my team's and users happiness
+
+#### 3. How does it affect me as an engineer?
+
+As an engineer, it affects the amount of value I provide while writing software artifacts. While this might not be attractive to everyone, it is to me. There are few things I like better than seeing a happy user. By only focusing on what provides value, it also narrows the amount of technology I need to use. One practice I take while building products to maximize their value is to avoid testing new technologies in real-world products. I try to build small POCs and only implement new tooling after I've been able to review them. While some new projects require new technology, having this mindset makes me trust less in marketing campaigns and more focused on proving their value before I spend the time implementing them.
+
+#### 4. How does it affect timelines?
+
+This is almost a no-brainer. By striving to make simpler solutions, we can (more often than not) deliver them faster. But we need to pay attention to how we do that. Every shortcut we take might mean a longer walk down the road, we need to make sure the customer is ready for that. In my experience, most of the time we never need to take that longer path. With that said, I've seen many products fail because such shortcuts weren't taken and the product took too long to get done.
+
+We need to look for a balance here. Because every product is different, an honest conversation with the stakeholders is necessary. The engineering team needs to understand the plans so they can plan the code accordingly.
+
+#### 5. How does it affect my customers?
+
+By understanding the product roadmap, but focusing on the problems we have in front of us, we can deliver the best value for our customers. They get what they've paid for now, and we deal with future problems they face instead of anxiously writing unnecessary pieces of code.
+
+I've seen customers unhappy with how long something takes to be done way too many times. While sometimes they had no clue about how long it takes to build software, many times I've seen them being right about it. As engineers and designers, we often overcomplicate solutions because we want what is best for our users, and at the same rate we forget that the users should have something that works rather than having nothing at all.
+
+Even after building applications for over ten years and repeating this philosophy to my ten every single day, I still have to keep reminding everyone that no client has an infinite budget. The real outcome of our work is not amazing design pieces or code or architectures, but usable functionalities in the hands of our users.
+
+### Conclusion
+
+In summary, Value Engineering is about maximizing the impact of software in an environment where resources are continually constrained. It is more than just a method; it is an art that requires careful consideration of the unique challenges and limitations of each project.
+
+By adhering to the principles discussed here, we cannot guarantee the perfect outcome, but we can certainly achieve far better results than if we ignored them.
