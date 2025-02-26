@@ -1,0 +1,47 @@
+---
+title: 'Defining our priorities as the CTO of a tech company'
+---
+
+Over the last few weeks, I've been feeling increasingly overwhelmed by the number of tasks I'm responsible for. As the CTO of a services company, I'm involved in nearly 80% of all discussions that are not project-specific (and often in those as well). This means that deciding what to focus on at the start of my day is often a struggle. 
+
+This morning, before doing anything else, I decided to define my concept of priority. To my surprise, I was able to come up with a definition that encompasses everything I find valuable for both the company and the team.
+
+Before diving into that, I need to define the **North Star**. Companies differ in processes, people, and culture, but one characteristic most of them share is their main goal: _to make money_. However, there are values they might be willing to sacrifice that I am not. The quality of life—both for me and my team—is a good example. 
+
+Therefore, the **North Star** for my definition of priority is: 
+
+> A task that increases either company revenue or the quality of life for my team, where one must not contradict the other.
+
+To help me decide what I should work on each day, I came up with two tools. 
+
+### 1. A High-Level Definition  
+
+This helps me quickly regain perspective when I find myself with tunnel vision, focusing on a task purely for personal satisfaction. I ask myself if the task falls into one of these categories:
+
+- **Stability**  
+  - The task maintains or improves the company’s current revenue.  
+- **Quality of life**  
+  - The task enhances the team's ability or happiness.  
+- **Growth**  
+  - The task supports revenue growth.  
+
+If the answer is an easy "no" for all of the above, it means the task has no place in my workday. It likely doesn’t fall within my responsibilities, so I either delegate it or drop it entirely.  
+
+If the answer is "yes," I move forward with it. However, _every single day_, I have more tasks than I can accomplish. To prioritize effectively, I created the following **scale of priorities**:  
+
+### 2. The Scale of Priorities  
+
+1. **Will it increase the company’s revenue?**  
+   1. It will bring in new contracts.  
+   2. It will increase the size of existing contracts.  
+   3. It will strengthen our ability to execute current contracts.  
+
+2. **Will it enhance the team’s ability to deliver quality work?**  
+   1. It will improve the team’s technical skills.  
+   2. It will boost team morale and work satisfaction.  
+
+3. **Will it increase our chances of future success?**  
+   1. It will improve the likelihood of securing larger or more contracts in the future.  
+   2. It will strengthen our ability to handle contract expansion.  
+
+By following this approach, I can easily categorize each task and act accordingly!
