@@ -2,8 +2,6 @@
 title: 'Personal Experience with AI-First IDEs: Cursor, Windsurf, Zed, and Aide'
 ---
 
-# Personal Experience with AI-First IDEs: Cursor, Windsurf, Zed, and Aide
-
 I've recently tested several prominent AI-first IDEs from late 2024 and early 2025: **Cursor**, **Windsurf**, **Zed**, and **Aide**. Here's my concise take on each one—including pricing—to help you choose the best IDE for your workflow.
 
 ---
