@@ -2,13 +2,13 @@
 title: 'Personal Experience with AI-First IDEs: Cursor, Windsurf, Zed, and Aide'
 ---
 
-I've recently tested several prominent AI-first IDEs from late 2024 and early 2025: **Cursor**, **Windsurf**, **Zed**, and **Aide**. Here's my concise take on each one—including pricing—to help you choose the best IDE for your workflow.
+I've recently tested several prominent AI-first IDEs from late 2024 and early 2025: [**Cursor**](https://cursor.sh), [**Windsurf**](https://windsurf.io), [**Zed**](https://zed.dev), and [**Aide**](https://aide.dev). Here's my concise take on each one—including pricing—to help you choose the best IDE for your workflow.
 
 ---
 
 ## Cursor: AI Pair Programming On Steroids
 
-**Cursor** feels like an upgraded VS Code—familiar yet powerful. Its **Agent Mode** and **Composer** features stand out, allowing complex multi-file refactoring simply by describing changes in natural language. The AI suggestions are highly context-aware, and you always retain full control—changes are easy to review and selectively apply, aligning perfectly with the "trust but verify" approach.
+[**Cursor**](https://cursor.sh) feels like an upgraded VS Code—familiar yet powerful. Its **Agent Mode** and **Composer** features stand out, allowing complex multi-file refactoring simply by describing changes in natural language. The AI suggestions are highly context-aware, and you always retain full control—changes are easy to review and selectively apply, aligning perfectly with the "trust but verify" approach.
 
 **Pricing:**  
 - **Free tier** available  
@@ -17,9 +17,9 @@ I've recently tested several prominent AI-first IDEs from late 2024 and early 20
 
 ---
 
-## Windsurf: Codeium’s Autonomous Coder
+## Windsurf: Codeium's Autonomous Coder
 
-**Windsurf** offers more autonomy with its agent-driven **Cascade AI**. It proactively suggests and even applies multi-step changes across multiple files. It's highly effective at automating tedious tasks, but the degree of autonomy can sometimes feel too bold—less aligned with a cautious, review-first mindset.
+[**Windsurf**](https://windsurf.io) offers more autonomy with its agent-driven **Cascade AI**. It proactively suggests and even applies multi-step changes across multiple files. It's highly effective at automating tedious tasks, but the degree of autonomy can sometimes feel too bold—less aligned with a cautious, review-first mindset.
 
 **Pricing:**  
 - **Free tier:** Unlimited basic AI features  
@@ -30,18 +30,18 @@ I've recently tested several prominent AI-first IDEs from late 2024 and early 20
 
 ## Zed: Collaboration Meets AI Speed
 
-**Zed** emphasizes real-time collaborative coding combined with powerful inline AI editing. It's extremely fast and provides transparent control over AI interactions, ideal for teams that frequently collaborate on the same files simultaneously. Its UI is polished, though slightly different from VS Code.
+[**Zed**](https://zed.dev) emphasizes real-time collaborative coding combined with powerful inline AI editing. It's extremely fast and provides transparent control over AI interactions, ideal for teams that frequently collaborate on the same files simultaneously. Its UI is polished, though slightly different from VS Code.
 
 **Pricing:**  
 - **Free:** Collaborative editing and basic AI  
-- **Zed Pro:** $12/month per user (includes Anthropic’s Claude 3.5)  
+- **Zed Pro:** $12/month per user (includes Anthropic's Claude 3.5)  
 - **Team and Enterprise plans** available
 
 ---
 
 ## Aide: Open-Source AI for Privacy-Minded Developers
 
-**Aide** is fully open-source, allowing integration with various local or remote LLMs. It proactively aids debugging, provides inline transformations, and has a thoughtful rollback mechanism to quickly revert unwanted AI edits. It's great for developers prioritizing privacy and extensive customization but slightly less polished compared to commercial alternatives.
+[**Aide**](https://aide.dev) is fully open-source, allowing integration with various local or remote LLMs. It proactively aids debugging, provides inline transformations, and has a thoughtful rollback mechanism to quickly revert unwanted AI edits. It's great for developers prioritizing privacy and extensive customization but slightly less polished compared to commercial alternatives.
 
 **Pricing:**  
 - Completely **free** (open-source)  
@@ -53,10 +53,10 @@ I've recently tested several prominent AI-first IDEs from late 2024 and early 20
 
 Here's a quick recommendation based on workflow priorities:
 
-- **Cursor:** Ideal if you prefer VS Code's familiarity and complete control over AI-driven changes. *(My personal preference.)*  
-- **Windsurf:** Best for autonomous code management but may require extra oversight.  
-- **Zed:** Great for real-time collaborative development.  
-- **Aide:** Perfect for developers prioritizing privacy, open-source flexibility, and self-hosted AI.
+- [**Cursor**](https://cursor.sh): Ideal if you prefer VS Code's familiarity and complete control over AI-driven changes. *(My personal preference.)*  
+- [**Windsurf**](https://windsurf.io): Best for autonomous code management but may require extra oversight.  
+- [**Zed**](https://zed.dev): Great for real-time collaborative development.  
+- [**Aide**](https://aide.dev): Perfect for developers prioritizing privacy, open-source flexibility, and self-hosted AI.
 
 **My Recommendation:**  
-After thoroughly testing each one, I prefer **Cursor**. Its similarity to VS Code makes onboarding effortless, and its Composer feature enables complex refactoring with clear control over each AI suggestion. Since my mindset is "trust but verify," Cursor’s transparent approach allows me to comfortably review and approve every change individually, rather than blindly accepting large automated edits.
+After thoroughly testing each one, I prefer [**Cursor**](https://cursor.sh). Its similarity to VS Code makes onboarding effortless, and its Composer feature enables complex refactoring with clear control over each AI suggestion. Since my mindset is "trust but verify," Cursor's transparent approach allows me to comfortably review and approve every change individually, rather than blindly accepting large automated edits.
