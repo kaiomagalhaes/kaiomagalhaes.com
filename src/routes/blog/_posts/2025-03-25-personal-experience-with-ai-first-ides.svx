@@ -1,10 +1,10 @@
 ---
-title: 'Personal Experience with AI-First IDEs: Cursor, Windsurf, Zed, Replit, and Aide'
+title: 'Personal Experience with AI-First IDEs: Cursor, Windsurf, Zed, and Aide'
 ---
 
-# Personal Experience with AI-First IDEs: Cursor, Windsurf, Zed, Replit, and Aide
+# Personal Experience with AI-First IDEs: Cursor, Windsurf, Zed, and Aide
 
-I've recently tested several prominent AI-first IDEs from late 2024 and early 2025: **Cursor**, **Windsurf**, **Zed**, **Replit**, and **Aide**. Here's my concise take on each one—including pricing—to help you choose the best IDE for your workflow.
+I've recently tested several prominent AI-first IDEs from late 2024 and early 2025: **Cursor**, **Windsurf**, **Zed**, and **Aide**. Here's my concise take on each one—including pricing—to help you choose the best IDE for your workflow.
 
 ---
 
@@ -41,18 +41,6 @@ I've recently tested several prominent AI-first IDEs from late 2024 and early 20
 
 ---
 
-## Replit: Cloud-Native AI Coding
-
-**Replit** excels at rapid, cloud-based prototyping. Features like **Ghostwriter** and the **Replit Agent** make spinning up entire projects effortless. It's excellent for quick experiments, educational purposes, or smaller-scale applications, though it may lack the depth and control preferred for larger projects.
-
-**Pricing:**  
-- **Free tier:** Basic usage  
-- **Hacker plan:** $7/month  
-- **Pro plan:** $20/month (includes Ghostwriter with GPT-4, Claude 3.5)  
-- **Educational and team plans** available
-
----
-
 ## Aide: Open-Source AI for Privacy-Minded Developers
 
 **Aide** is fully open-source, allowing integration with various local or remote LLMs. It proactively aids debugging, provides inline transformations, and has a thoughtful rollback mechanism to quickly revert unwanted AI edits. It's great for developers prioritizing privacy and extensive customization but slightly less polished compared to commercial alternatives.
@@ -70,7 +58,6 @@ Here's a quick recommendation based on workflow priorities:
 - **Cursor:** Ideal if you prefer VS Code's familiarity and complete control over AI-driven changes. *(My personal preference.)*  
 - **Windsurf:** Best for autonomous code management but may require extra oversight.  
 - **Zed:** Great for real-time collaborative development.  
-- **Replit:** Excellent for rapid cloud prototyping and educational scenarios.  
 - **Aide:** Perfect for developers prioritizing privacy, open-source flexibility, and self-hosted AI.
 
 **My Recommendation:**  
