@@ -2,8 +2,8 @@
   export let src: string;
   export let alt: string;
   export let caption: string | undefined = undefined;
-  export let width: number = 800;
-  export let height: number = 450;
+  export let width: number = 400;
+  export let height: number = 225;
 </script>
 
 <figure class="my-8">
