@@ -6,13 +6,15 @@ title: 'Trying out AI-First IDEs: Cursor, Windsurf, Zed, Aide, Copilot, Cody, an
   import BlogImage from '$lib/components/BlogImage.svelte';
 </script>
 
-I've recently tested several prominent AI-first IDEs from late 2024 and early 2025: **Cursor**, **Windsurf**, **Zed**, **Aide**, along with established AI assistants **GitHub Copilot**, **Sourcegraph Cody**, and **Amazon Q**. To provide a more comprehensive comparison, I've evaluated each based on the following criteria: **Pricing**, **Onboarding**, **UI/UX**, **Transparency**, **Efficiency**, **Code Quality**, **Context Management**, **Privacy**, and **Features**.
+Over the last couple of weeks I've been tasked to review the AI-first IDEs available now in the first quarter of 2025.
+The goal is to define which ones I'll keep using on a daily basis while I work across different projects/technologies.
+The IDEs I'll be focusing on are: **Cursor**, **Windsurf**, **Zed**, **Aide**, **GitHub Copilot**, **Sourcegraph Cody**, and **Amazon Q**.
 
 Before I jump into the evaluation itself, I would like to mention how Microsoft changed the entire game by offering an Open Source IDE. Most of the tools below are based on it, and IDE wise provide a similar experience.
 
 ## Evaluation Criteria
 
-Each tool is evaluated based on the following criteria and scored from 1 to 10:
+I'm evaluating each tool based on the following criteria and scored from 1 to 10:
 - **Pricing**: Affordability and available plans
 - **Onboarding**: Ease of getting started
 - **UI/UX**: Intuitiveness and user experience
