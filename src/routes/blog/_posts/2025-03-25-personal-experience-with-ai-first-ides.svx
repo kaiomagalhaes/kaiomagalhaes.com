@@ -29,6 +29,13 @@ Each tool is evaluated based on the following criteria and scored from 1 to 10:
 
 **Cursor** feels like an upgraded VS Code—familiar yet powerful. Standout features like **Agent Mode**, **Composer**, and the experimental **Bug Finder** allow complex multi-file refactoring with natural language descriptions. Context-aware AI suggestions are transparent and easy to review.
 
+### AI Models Available
+- **OpenAI's GPT-4**
+- **Anthropic's Claude 3.5/3.7**
+- **Google's Gemini 2.0**
+- **xAI's Grok**
+- **Cursor's own cursor-small model** for basic code completion
+
 ### Problems Encountered
 - Context limits became noticeable in large projects, requiring more review cycles.
 - The **Bug Finder** tool, although promising, sometimes provides false positives or irrelevant suggestions when dealing with highly modular codebases.
@@ -36,7 +43,7 @@ Each tool is evaluated based on the following criteria and scored from 1 to 10:
 
 ### Pricing
 - **Free tier** available  
-- **Pro Plan:** $20/month (advanced LLM integrations like GPT-4, Claude 3.5)  
+- **Pro Plan:** $20/month (advanced LLM integrations like GPT-4, Claude 3.5/3.7)  
 - **Enterprise:** Custom pricing available  
 
 <BlogImage src="/assets/blog/personal-ides/cursor_scores_horizontal_modern.png" alt="Cursor IDE Scores Visualization" />
@@ -45,9 +52,13 @@ Each tool is evaluated based on the following criteria and scored from 1 to 10:
 
 ## Windsurf: Codeium's Autonomous Coder
 
-**Windsurf** leverages **Cascade AI** to autonomously apply multi-file edits. Highly efficient for automation but less transparent and requires vigilant oversight.  
+**Windsurf** leverages **Cascade AI** to autonomously apply multi-file edits. Highly efficient for automation but less transparent and requires vigilant oversight.
 
-I tried Windsurf and, at first, I was impressed with how easy it was to use the **Cascade AI** mode. However, after only a few suggestions, it started ignoring previous ones and making unintended changes. It also struggled to follow directions like **CSS themes** and **styles**.
+### AI Models Available
+- **Codeium's Cascade Base model**
+- **OpenAI's GPT-4**
+- **Anthropic's Claude 3.5/3.7**
+- **Google's Gemini 2.0**
 
 ### Problems Encountered
 - Over-aggressive suggestions required frequent intervention, particularly when refactoring complex logic.
@@ -64,8 +75,13 @@ I tried Windsurf and, at first, I was impressed with how easy it was to use the 
 
 ## Zed: Collaboration Meets AI Speed
 
-**Zed** emphasizes real-time collaborative coding combined with powerful inline AI editing. It’s extremely fast and provides transparent control over AI interactions, ideal for teams that frequently collaborate on the same files simultaneously. Its UI is polished, though slightly different from VS Code.
+**Zed** emphasizes real-time collaborative coding combined with powerful inline AI editing. It's extremely fast and provides transparent control over AI interactions, ideal for teams that frequently collaborate on the same files simultaneously.
 
+### AI Models Available
+- **Anthropic's Claude 3.5 Sonnet** (default)
+- **OpenAI's GPT-4**
+- **Google's PaLM/Gemini**
+- **Local models via Ollama and LM Studio**
 
 ### Problems Encountered
 - Slight learning curve due to unfamiliar UI.
@@ -82,11 +98,16 @@ I tried Windsurf and, at first, I was impressed with how easy it was to use the 
 
 ## Aide: Open-Source AI for Privacy-Minded Developers
 
-**Aide** is fully open-source, allowing integration with various local or remote LLMs. It proactively aids debugging, provides inline transformations, and has a thoughtful rollback mechanism to quickly revert unwanted AI edits. It’s great for developers prioritizing privacy and extensive customization but slightly less polished compared to commercial alternatives.
+**Aide** is fully open-source, allowing integration with various local or remote LLMs. It proactively aids debugging, provides inline transformations, and has a thoughtful rollback mechanism to quickly revert unwanted AI edits.
+
+### AI Models Available
+- **OpenAI's GPT-4**
+- **Anthropic's Claude**
+- **Local models via Ollama and LM Studio**
 
 ### Problems Encountered
 - UX is less intuitive, and initial configuration can be complex.
-- Limited support compared to commercial alternatives, as the open-source nature means that compatibility issues can arise after updates.
+- Limited support compared to commercial alternatives.
 
 ### Pricing
 - **Completely free** (open-source)  
@@ -98,16 +119,21 @@ I tried Windsurf and, at first, I was impressed with how easy it was to use the 
 
 ## Copilot: Effortless and Popular AI Coding
 
-**GitHub Copilot** feels intuitive right from the start. The inline suggestions powered by GPT-4 integrate seamlessly into VS Code and make general coding tasks noticeably faster. It’s excellent for quickly generating boilerplate code or exploring unfamiliar APIs.
+**GitHub Copilot** feels intuitive right from the start. The inline suggestions powered by GPT-4 integrate seamlessly into VS Code and make general coding tasks noticeably faster. It's excellent for quickly generating boilerplate code or exploring unfamiliar APIs.
+
+### AI Models Available
+- **OpenAI's GPT-4** (for chat)
+- **GitHub Copilot** (custom model for inline completions)
 
 ### Problems Encountered
 - Limited context awareness in large projects.
-- Occasionally makes inaccurate assumptions about variable naming and scope, leading to suggestions that may not align with the current code style or logic.
+- It occasionally makes inaccurate assumptions about variable naming and scope, leading to suggestions that may not align with the current code style or logic.
+- Less effective for multi-file operations compared to dedicated AI-first IDEs.
 
 ### Pricing
-- **Individual Plan:** ~$10/month  
-- **Copilot for Business:** ~$19/user/month  
-- **Free** for students and open-source maintainers  
+- **Free:** Limited to students and open-source maintainers
+- **Individual:** $10/month
+- **Business:** $19/user/month (includes advanced policy controls)
 
 <BlogImage src="/assets/blog/personal-ides/copilot_scores_horizontal_modern.png" alt="GitHub Copilot Scores Visualization" />
 
@@ -115,16 +141,20 @@ I tried Windsurf and, at first, I was impressed with how easy it was to use the 
 
 ## Cody: Ideal for Navigating Large Codebases
 
-After testing **Sourcegraph Cody**, I appreciated its ability to deeply understand and reference my entire project. Cody’s context-aware suggestions saved significant time navigating complex projects and onboarding new team members. It’s especially powerful if you’re maintaining consistency across large codebases.
+**Sourcegraph Cody** is designed to help developers navigate large codebases and understand complex code. It provides context-aware suggestions and can be used in various IDEs.
+
+### AI Models Available
+- **Sourcegraph Cody** (custom model for inline completions)
 
 ### Problems Encountered
-- Initial setup can be time-consuming.
-- UX complexity may overwhelm users unfamiliar with Sourcegraph.
-- Processing very large repositories can slow down performance.
+- Limited context awareness in large projects.
+- It occasionally makes inaccurate assumptions about variable naming and scope, leading to suggestions that may not align with the current code style or logic.
+- Less effective for multi-file operations compared to dedicated AI-first IDEs.
 
 ### Pricing
-- **Free tier:** Limited use on Sourcegraph's cloud  
-- **Enterprise:** Custom pricing, typically bundled with Sourcegraph Enterprise (self-hosting options available)  
+- **Free:** Limited to students and open-source maintainers
+- **Individual:** $10/month or $100/year
+- **Business:** $19/user/month (includes advanced policy controls)
 
 <BlogImage src="/assets/blog/personal-ides/cody_scores_horizontal_modern.png" alt="Sourcegraph Cody Scores Visualization" />
 
@@ -132,15 +162,21 @@ After testing **Sourcegraph Cody**, I appreciated its ability to deeply understa
 
 ## Amazon Q: Comprehensive but AWS-Focused
 
-**Using Amazon Q**, I found it particularly powerful when integrated within the AWS ecosystem. Its comprehensive capabilities—from coding and testing to documentation and reviews—are impressive, especially if you’re already embedded in AWS infrastructure. Outside AWS tasks, its effectiveness was good, though not quite as universally intuitive as Copilot.
+Using **Amazon Q**, I found it particularly powerful when integrated within the AWS ecosystem. Its comprehensive capabilities—from coding and testing to documentation and reviews—are impressive, especially if you’re already embedded in AWS infrastructure. Outside AWS tasks, its effectiveness was good, though not quite as universally intuitive as Copilot.
+
+### AI Models Available
+- **Amazon Q Developer** (custom model optimized for coding)
+- **Foundation models** from Amazon Bedrock
 
 ### Problems Encountered
 - Less intuitive outside AWS-specific contexts.
-- Can be resource-intensive, leading to slower performance during complex lifecycle operations on large applications.
+- It can be resource-intensive, causing slower performance when running complex lifecycle operations on large applications.
+- Steeper learning curve for developers not familiar with the AWS ecosystem.
 
 ### Pricing
-- **Free tier:** Available with AWS Builder ID  
-- **Pro and Business tiers:** Custom pricing available  
+- **Free tier:** Basic IDE features with monthly token limits
+- **Professional tier:** Not specified in their website
+- **Enterprise:** Custom pricing based on organization size
 
 <BlogImage src="/assets/blog/personal-ides/amazon_q_scores_horizontal_modern.png" alt="Amazon Q Scores Visualization" />
 
@@ -150,15 +186,16 @@ After testing **Sourcegraph Cody**, I appreciated its ability to deeply understa
 
 Here's a quick recommendation based on workflow priorities:
 
-- [**Cursor**](https://cursor.sh): Ideal if you prefer VS Code's familiarity and complete control over AI-driven changes. *(My personal preference.)*  
-- [**Windsurf**](https://windsurf.io): Best for autonomous code management but may require extra oversight.  
-- [**Zed**](https://zed.dev): Great for real-time collaborative development.  
-- [**Aide**](https://aide.dev): Perfect for developers prioritizing privacy, open-source flexibility, and self-hosted AI.  
-- [**Copilot**](https://github.com/features/copilot): Effortless integration and popular among general-purpose coding tasks.  
-- [**Cody**](https://sourcegraph.com/cody): Excellent for large, complex projects requiring deep contextual AI assistance.  
-- [**Amazon Q**](https://aws.amazon.com/amazonq): Best suited for AWS-centric teams needing a comprehensive enterprise solution.
+- **Cursor:** Best for VS Code familiarity and strong control over AI changes.  
+- **Windsurf:** Ideal for autonomous code management with oversight.  
+- **Zed:** Great for real-time collaborative development.  
+- **Aide:** Suitable for privacy-conscious developers who want open-source flexibility.  
+- **Copilot:** Excellent for general-purpose coding and boilerplate generation.  
+- **Cody:** Ideal for large codebases requiring deep contextual understanding.  
+- **Amazon Q:** Best for AWS-focused teams needing comprehensive cloud integration.
+
 ## Overall Comparison
 
 After thorough testing and scoring, **Cursor** remains my top choice. Its robust transparency, feature set, and excellent UI align perfectly with my "trust but verify" approach.
 
-*Choosing the right tool ultimately depends on your specific use case and preferences. I hope this breakdown helps you make an informed decision.*
+Choosing the right tool ultimately depends on your specific use case and preferences. I hope this breakdown helps you make an informed decision.
