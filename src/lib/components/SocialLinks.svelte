@@ -3,6 +3,9 @@
 </script>
 
 <div class="text-center text-secondary flex justify-center gap-4 {className}">
+  <a href="https://www.linkedin.com/in/kaiomagalhaes/" aria-label="My LinkedIn profile" class="hover:text-primary" target="_blank">
+    <i class="icon-linkedin" />
+  </a>
   <a href="https://twitter.com/kaiocmagalhaes" aria-label="My Twitter profile" class="hover:text-primary" target="_blank">
     <i class="icon-twitter" />
   </a>
