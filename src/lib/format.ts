@@ -1,6 +1,7 @@
-export const formatTitle = (title: string): string => {
-  return title.replace(/\(nbsp\)/g, '\xa0');
-};
+export function formatTitle(title: string | undefined): string {
+  if (!title) return '';
+  return title.replace(/\s+/g, ' ').trim();
+}
 
 export const formatPublishDate = (date: string): string => {
   return new Date(date).toLocaleDateString('en-US', {
