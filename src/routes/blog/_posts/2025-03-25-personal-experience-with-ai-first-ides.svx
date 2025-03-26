@@ -1,5 +1,5 @@
 ---
-title: 'Trying out AI-First IDEs: Cursor, Windsurf, Zed, Aide, Copilot, Cody, and Amazon Q'
+title: 'Trying out AI-First IDEs: Cursor, Windsurf, Zed, Aide, Copilot, and Cody'
 ---
 
 <script>
@@ -8,7 +8,7 @@ title: 'Trying out AI-First IDEs: Cursor, Windsurf, Zed, Aide, Copilot, Cody, an
 
 Over the last couple of weeks I've been tasked to review the AI-first IDEs available now in the first quarter of 2025.
 The goal is to define which ones I'll keep using on a daily basis while I work across different projects/technologies.
-The IDEs I'll be focusing on are: **Cursor**, **Windsurf**, **Zed**, **Aide**, **GitHub Copilot**, **Sourcegraph Cody**, and **Amazon Q**.
+The IDEs I'll be focusing on are: **Cursor**, **Windsurf**, **Zed**, **Aide**, **GitHub Copilot**, and **Sourcegraph Cody**.
 
 Before I jump into the evaluation itself, I would like to mention how Microsoft changed the entire game by offering an Open Source IDE. Most of the tools below are based on it, and IDE wise provide a similar experience.
 
@@ -29,7 +29,7 @@ I'm evaluating each tool based on the following criteria and scored from 1 to 10
 
 ## Cursor: AI Pair Programming On Steroids
 
-**Cursor** feels like an upgraded VS Code—familiar yet powerful. Standout features like **Agent Mode**, **Composer**, and the experimental **Bug Finder** allow complex multi-file refactoring with natural language descriptions. Context-aware AI suggestions are transparent and easy to review.
+**Cursor** feels like an upgraded VS Code—familiar yet powerful. Features like **Agent Mode**, **Composer**, and the experimental **Bug Finder** allow complex multi-file refactoring with natural language descriptions. Context-aware AI suggestions are transparent and easy to review.
 
 ### AI Models Available
 - **OpenAI's GPT-4**
@@ -162,28 +162,6 @@ I'm evaluating each tool based on the following criteria and scored from 1 to 10
 
 ---
 
-## Amazon Q: Comprehensive but AWS-Focused
-
-Using **Amazon Q**, I found it particularly powerful when integrated within the AWS ecosystem. Its comprehensive capabilities—from coding and testing to documentation and reviews—are impressive, especially if you’re already embedded in AWS infrastructure. Outside AWS tasks, its effectiveness was good, though not quite as universally intuitive as Copilot.
-
-### AI Models Available
-- **Amazon Q Developer** (custom model optimized for coding)
-- **Foundation models** from Amazon Bedrock
-
-### Problems Encountered
-- Less intuitive outside AWS-specific contexts.
-- It can be resource-intensive, causing slower performance when running complex lifecycle operations on large applications.
-- Steeper learning curve for developers not familiar with the AWS ecosystem.
-
-### Pricing
-- **Free tier:** Basic IDE features with monthly token limits
-- **Professional tier:** Not specified in their website
-- **Enterprise:** Custom pricing based on organization size
-
-<BlogImage src="/assets/blog/personal-ides/amazon_q_scores_horizontal_modern.png" alt="Amazon Q Scores Visualization" />
-
----
-
 ## Final Thoughts: Picking the Right AI-First IDE
 
 Here's a quick recommendation based on workflow priorities:
@@ -194,7 +172,6 @@ Here's a quick recommendation based on workflow priorities:
 - **Aide:** Suitable for privacy-conscious developers who want open-source flexibility.  
 - **Copilot:** Excellent for general-purpose coding and boilerplate generation.  
 - **Cody:** Ideal for large codebases requiring deep contextual understanding.  
-- **Amazon Q:** Best for AWS-focused teams needing comprehensive cloud integration.
 
 ## Overall Comparison
 
