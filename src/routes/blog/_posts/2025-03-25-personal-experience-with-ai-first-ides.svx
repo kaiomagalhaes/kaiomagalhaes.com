@@ -54,7 +54,7 @@ I'm evaluating each tool based on the following criteria and scored from 1 to 10
 
 ## Windsurf: Codeium's Autonomous Coder
 
-**Windsurf** leverages **Cascade AI** to autonomously apply multi-file edits. Highly efficient for automation but less transparent and requires vigilant oversight.
+**Windsurf** offers more autonomy with its agent-driven **Cascade AI**. It proactively suggests and even applies multi-step changes across multiple files. It's highly effective at automating tedious tasks, but the degree of autonomy can sometimes feel too bold—less aligned with a cautious, review-first mindset.
 
 ### AI Models Available
 - **Codeium's Cascade Base model**
@@ -77,7 +77,7 @@ I'm evaluating each tool based on the following criteria and scored from 1 to 10
 
 ## Zed: Collaboration Meets AI Speed
 
-**Zed** emphasizes real-time collaborative coding combined with powerful inline AI editing. It's extremely fast and provides transparent control over AI interactions, ideal for teams that frequently collaborate on the same files simultaneously.
+**Zed** emphasizes real-time collaborative coding combined with powerful inline AI editing. It's extremely fast and provides transparent control over AI interactions, ideal for teams that frequently collaborate on the same files simultaneously. Its UI is polished, though slightly different from VS Code.
 
 ### AI Models Available
 - **Anthropic's Claude 3.5 Sonnet** (default)
@@ -100,7 +100,7 @@ I'm evaluating each tool based on the following criteria and scored from 1 to 10
 
 ## Aide: Open-Source AI for Privacy-Minded Developers
 
-**Aide** is fully open-source, allowing integration with various local or remote LLMs. It proactively aids debugging, provides inline transformations, and has a thoughtful rollback mechanism to quickly revert unwanted AI edits.
+**Aide** is fully open-source, allowing integration with various local or remote LLMs. It proactively aids debugging, provides inline transformations, and has a thoughtful rollback mechanism to quickly revert unwanted AI edits. It's great for developers prioritizing privacy and extensive customization but slightly less polished compared to commercial alternatives.
 
 ### AI Models Available
 - **OpenAI's GPT-4**
