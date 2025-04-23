@@ -10,13 +10,18 @@
   export let headerImage;
   /** @type {string} */
   export let published;
+  /** @type {string} */
+  export let canonical;
 
   $: formattedTitle = title ? formatTitle(title) : '';
   $: blogTitle = typeof tagline === 'string' ? 'blog | ' : '';
+  $: canonicalUrl = canonical || `https://www.kaiomagalhaes.com${$page.url.pathname}`;
 </script>
 
 <svelte:head>
   <title>{blogTitle}{formattedTitle}</title>
+
+  <link rel="canonical" href={canonicalUrl} />
 
   <meta property="og:url" content="https://www.kaiomagalhaes.com{$page.url.pathname}" />
   <meta property="og:type" content="website" />
