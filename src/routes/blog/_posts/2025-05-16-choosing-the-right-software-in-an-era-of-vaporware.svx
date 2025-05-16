@@ -1,0 +1,45 @@
+---
+title: 'Choosing the Right Software in an Era of Vaporware'
+---
+
+Working in the custom-software industry means that, more often than not, I’m comparing what **we** can achieve for our customers with what’s already on the market, neatly packaged and sold as SaaS. That exercise usually involves digging through documentation, marketing pages, slick websites, and a never-ending stream of **“we-can-do-everything”** sales pitches that too often turn into unfulfilled promises. There’s a persistent disconnect between product and sales: sales swears everything is possible but there’s always a * lurking somewhere.
+
+Let’s get real.
+
+---
+
+## The StorageInc * - A Case Study
+
+A few years ago, I watched a company, let’s call them **Acme**, sign a contract with a file-storage vendor we’ll dub **StorageInc**. Acme needed to stash terabytes of files and make them searchable so users could review documents and use them as learning materials. StorageInc’s pitch sounded perfect: “Just store your files with us, hit the API with a search term, and boom! instant results.” Simpler than anything else I could find at the time.
+
+Search was mission-critical for Acme. With all the security layers and a long list of other must-haves, they inked a multimillion-dollar deal. Only afterward did I discover the ominous *: **the search indexed only the first 10 pages** of any file. Acme had documents hundreds of pages long massive problem.
+
+Then came user mapping. Because of how billing worked, Acme couldn’t do a 1-to-1 mapping between their users and StorageInc’s authorization system. Another fact learned too late.
+
+The result? A legal battle to break the contract because, suddenly, building the entire service in-house was cheaper than using StorageInc.
+
+---
+
+## Vaporware, Super-Charged by AI
+
+That wasn’t the last time I saw a client blindsided by half-baked features. And with AI hype everywhere, I’m afraid we’ll see a lot more of it. Every new AI-powered product demo promises the moon, while under the hood the functionality is half-built, misunderstood by developers, or riddled with security gaps.
+
+We’ve always had vaporware, now it just feels like **most** of what’s out there is vaporware.
+
+We are shipping features faster than ever, but it doesn't not mean we are keeping up with the product quality. 
+
+---
+
+## Before You Swipe Your Credit Card
+
+These days it’s easier than ever to sell shiny features behind a polished UI that don’t actually exist. So before you commit:
+
+1. **Understand the app’s true proposal.**  
+2. **Review the full feature set and the fine print.**  
+3. **Talk to a human.** Ask direct yes/no questions; don’t accept “it depends.”  
+4. **Run a trial, if possible.**  
+5. **Never** commit to more than a few hundred dollars without serious due diligence.
+
+---
+
+Choosing the right software in an era of vaporware is less about dazzling demos and more about ruthless verification. Keep your guard up, dig for the *, and don’t let the promise of “AI magic” cloud your judgment.
