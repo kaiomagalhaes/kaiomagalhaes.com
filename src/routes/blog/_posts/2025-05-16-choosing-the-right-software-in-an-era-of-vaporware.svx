@@ -1,0 +1,53 @@
+---
+title: 'Choosing the Right Software in an Era of Vaporware'
+---
+
+Working in the custom-software industry often means comparing what we can build for our customers with what is already being sold as SaaS. That involves combing through documentation, marketing sites, and countless “we-can-do-everything” sales pitches, many of which turn out to be empty promises. A common culprit is the disconnect between product and sales, where **everything** is allegedly possible, but there is always an asterisk lurking at the end.
+
+---
+
+## The StorageInc * - A Case Study
+
+A few years ago, a company (let’s call them **Acme**) signed a contract with a file-storage service we’ll call **StorageInc**. Acme needed to store *terabytes* of files and make them searchable so users could review documents as learning materials. StorageInc’s sales team promised it would be *simple*: store your files with us, send an API request with a search term, and you’re done, far easier than any alternative on the market.
+
+This functionality was crucial for Acme. Because of the large file sizes, stringent security requirements, and a separate set of features StorageInc offered, Acme agreed to a multimillion-dollar contract. Only later, during implementation discussions, did Acme learn what the asterisk actually meant: **the search indexed only the first *x* pages of each file**. With documents hundreds of pages long, that limitation was a deal-breaker.
+
+Acme swore this detail had never been disclosed by the sales team. Whether sales knew about it remains unclear; it emerged only when Acme’s development team spoke directly with StorageInc’s implementation engineers. There were other gaps between what was promised and what was delivered, but this single limitation created enough friction to render the partnership useless.
+
+The result? A legal battle to break the contract, because continuing with StorageInc suddenly looked costlier than building the service in-house.
+
+---
+
+## What This Teaches Us
+
+Situations like this arise when you choose an off-the-shelf solution instead of building your own. Often, SaaS products are “good enough” and truly solve your problem, but differentiating the real solutions from the vaporware takes time and diligence.
+
+I’ve seen similar issues many times since that first incident, and, frankly, I expect to see them more frequently. As more companies build features with AI agents like [Lovable](https://lovable.ai), [OpenAI Codex](https://platform.openai.com/docs/guides/codex) and [Cursor](https://cursor.sh), I hear sales teams claiming *anything* is possible. I see half-finished functionalities because developers don’t fully understand what they’re building. Security failures are on the rise.
+
+While vaporware has always existed, today it feels like **most** of what’s out there is vaporware. Our filters must get stricter.
+
+---
+
+## AI Should Augment, Not Replace, Developers
+
+The productivity gains we get from AI should come from **augmenting** developers, not directly replacing them. These tools can write short snippets of code impressively well, but they struggle with complex architectures. The real time sinks were never the coding lines themselves; they were the planning, architecting, and testing phases.
+
+I can now build an impressive proof of concept (POC) in a couple of days, work that once took weeks. Yet it is still a *POC*. It still needs thorough review and safeguards. User flows must be well-defined, and the UI must provide clear cues for a good experience.
+
+In short, it has never been easier to sell features through a polished UI that don’t really exist.
+
+---
+
+## Due Diligence Checklist
+
+Before you add your credit card details, be sure to:
+
+1. **Understand the product’s core proposition.**  
+2. **Review the feature set carefully.**  
+3. **Talk to a salesperson and ask clear yes/no questions.** Avoid “it depends.”  
+4. **Request a trial** whenever possible.  
+5. **Never commit** to more than a few hundred dollars without proper due diligence.
+
+---
+
+Choosing the right software in an era of vaporware is less about dazzling demos and more about ruthless verification. Keep your guard up, dig for the *, and don’t let the promise of “AI magic” cloud your judgment.
