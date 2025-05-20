@@ -4,8 +4,14 @@ tagline: 'things I like and you might too'
 ---
 
 <script>
-	import WaveText from "$lib/components/WaveText.svelte";
+        import WaveText from "$lib/components/WaveText.svelte";
 </script>
+
+<svelte:head>
+  <title>kaio magalhaes | interests</title>
+  <meta name="description" content="things I like and you might too" />
+  <link rel="canonical" href="https://www.kaiomagalhaes.com/interests" />
+</svelte:head>
 
 <h1 class="text-secondary text-base">
   things I like and you might too

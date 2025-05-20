@@ -2,6 +2,12 @@
 title: 'notes'
 ---
 
+<svelte:head>
+  <title>kaio magalhaes | notes</title>
+  <meta name="description" content="Random thoughts, ideas and links" />
+  <link rel="canonical" href="https://www.kaiomagalhaes.com/notes" />
+</svelte:head>
+
 <h1 class="text-base text-secondary">
   random thoughts, ideas, links to conversations, music, etc.
   <br/>

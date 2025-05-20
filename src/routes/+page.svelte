@@ -7,6 +7,9 @@
 <svelte:head>
   <title>kaio magalhaes | blog</title>
 
+  <meta name="description" content="A blog about (mostly) computery things" />
+  <link rel="canonical" href="https://www.kaiomagalhaes.com/" />
+
   <meta property="og:url" content="https://www.kaiomagalhaes.com" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="kaiomagalhaes" />

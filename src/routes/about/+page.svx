@@ -4,8 +4,14 @@ tagline: 'obligatory self-describing blurb'
 ---
 
 <script>
-	import WaveText from "$lib/components/WaveText.svelte";
+        import WaveText from "$lib/components/WaveText.svelte";
 </script>
+
+<svelte:head>
+  <title>kaio magalhaes | about</title>
+  <meta name="description" content="obligatory self-describing blurb" />
+  <link rel="canonical" href="https://www.kaiomagalhaes.com/about" />
+</svelte:head>
 
 <h1 class="text-center text-secondary text-base">
   obligatory self-describing blurb
