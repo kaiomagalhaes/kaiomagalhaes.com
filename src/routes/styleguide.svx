@@ -2,6 +2,12 @@
 title: 'styleguide'
 ---
 
+<svelte:head>
+  <title>kaio magalhaes | styleguide</title>
+  <meta name="description" content="Styleguide examples" />
+  <link rel="canonical" href="https://www.kaiomagalhaes.com/styleguide" />
+</svelte:head>
+
 # Styleguide
 
 ---
