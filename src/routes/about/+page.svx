@@ -13,7 +13,7 @@ tagline: 'obligatory self-describing blurb'
 
 ---
 
-### my history
+### My journey
 
 Even though I officially started in the engineering field in 2011, my career began when I was 8 years old,
 but I have to admit that I could only break electronics apart at the time. Fortunately, years later I learned how to put them back together.
