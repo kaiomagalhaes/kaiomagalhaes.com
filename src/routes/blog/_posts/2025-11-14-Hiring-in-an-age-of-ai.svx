@@ -1,0 +1,61 @@
+---
+title: 'Hiring in the age of AI'
+---
+
+I've been working remotely at [Codelitt](https://codelitt.com) since 2015, and hiring remotely since 2017. In other words, I was recruiting talent remotely long before COVID forced many industries to either go remote or lose their workforce to more flexible companies. Being an early adopter of remote work opened up a huge pool of candidates. Many were proactively stepping out of their comfort zones to try something new. As a Brazilian working with U.S. companies pre-COVID, I often got funny looks when I mentioned I worked remotely, back then it was a novelty.
+
+Between 2017 and 2024, hiring was straightforward enough. As an engineer who's never been a fan of live coding exercises, I preferred to send candidates a take-home assignment. After they submitted their code, we'd review it together in a follow-up interview, talking through their technical choices and thought process. We also had a culture call to discuss communication (yes, English proficiency mattered), priorities, and alignment with the team. I knew some candidates might have gotten a little help on the take-home, but I liked to give them the benefit of the doubt. Any shortcuts would usually become obvious during the technical interview when we dug into the details. Life was simple.
+
+Don't get me wrong, I did encounter some creative attempts at gaming the system in those days. For example, I've seen candidates try things like:
+
+- Using a second monitor (just off-camera) to search for answers during a live interview.
+
+- Having someone else literally join the interview pretending to be them.
+
+- Outsourcing their take-home project to another person, then looking utterly lost when asked to explain the code.
+
+- Reading off a prepared script of Q&A during the interview (one candidate accidentally left his cheat sheet visible on screen; needless to say, it didn't end well).
+
+Those incidents were rare, and frankly a bit amusing in hindsight. However, hiring in the age of AI is a whole new nightmare.
+
+It's become challenging for both the interviewer and the interviewee. Let's look at both perspectives.
+
+## Candidates
+
+From a candidate's perspective, the interview process used to be refreshingly human. A couple of culture chats and a couple of technical interviews, that was it. Sometimes there would be a live coding exercise or a take-home project. I never minded either approach, since I never had trouble with them. (I do realize that if you're especially shy or anxious, a live coding session can be nerve-wracking. But for me, it was fine.)
+
+Now, things have changed dramatically for candidates looking for jobs. Just a few weeks ago, I had two friends in my home office applying for new positions, and I was blown away by the hoops companies made them jump through. The process was loaded with AI-driven steps. For instance, some companies now:
+
+- Have you do a phone screening with an AI (basically talking to a chatbot that asks interview questions).
+
+- Require a live coding exercise monitored by AI, where software watches your screen and behavior for any signs of cheating.
+
+In these initial stages, it was all AI ,  no human being on the other side. From the company's standpoint, they have nothing to lose by automating this: it saves their team's time and they can churn through candidates easily. But for the candidates, it felt cold and bizarre. Imagine trying to showcase your passion and skills to a machine that's just parsing keywords or tracking your keystrokes. There's zero personal connection. It's like yelling into the void, hoping the void likes your answers.
+
+## Companies
+
+Now put yourself in the company's shoes. As an interviewer or hiring manager, it's virtually impossible to tell if a candidate is getting a little AI assistance during a remote interview. Thanks to modern tools, a determined candidate can have an AI sidekick without you ever knowing. They might:
+
+- Run an undetectable AI program locally that listens in and feeds them suggested answers (in a hidden window that isn't captured on the screen share).
+
+- Prop a phone or tablet just out of view, using it to quickly query [ChatGPT](https://openai.com/chatgpt) or another assistant for help mid-interview.
+
+With these tricks, a candidate could theoretically answer even complex questions by relaying what the AI suggests, in real time. As an interviewer, you're left wondering if the pause they took is because they were thinking or because they were waiting for [ChatGPT](https://openai.com/chatgpt) to respond. Verifying someone's true skill and honesty has become an arms race.
+
+### The rise of the AI fakes
+
+
+I believe that the wave of fake candidates started appearing in 2020 with the surge in remote positions. I remember clearly facing this problem in 2022 where I'm confident that I interview one person and hired another. The way for it to happen before was a simple one. People would ask someone else to do the interview, and they would never appear on camera. However, nowadays they are taking one step further. In a recent hiring process for a Python position at [Codelitt](https://codelitt.com), we started facing candidates that would be using AI filters to look like someone else. This is happening in two ways:
+
+A candidate from a different nationality wants to pass as an American one when the company is only hiring in America due to timezone constraints.
+When a candidate doesn't have the necessary experience for a position, instead of creating a fake profile, they instead use someone's real profile and use AI to impersonate them on calls.
+
+I've personally seen both situations happening at [Codelitt](https://codelitt.com). This means that companies need to step up their game in order to not be fooled.
+
+In fact, some large companies have reportedly resorted to bringing back at least one in-person interview in the process, just to ensure the person they're talking to is the one doing the thinking. (As [The Wall Street Journal](https://www.wsj.com/lifestyle/careers/ai-job-interview-virtual-in-person-305f9fd0) noted, AI is “forcing the return of the in-person job interview” at firms like [Cisco](https://www.cisco.com) and [McKinsey](https://www.mckinsey.com). See also [The Atlantic](https://www.theatlantic.com/technology/2025/10/ai-cheating-job-interviews-fraud/684568/). That's a heavy price to pay for something as basic as authenticity. For smaller companies or teams hiring remotely around the world, mandating in-person meetings isn't always practical. So, many are stuck with a dilemma: _How do you keep your hiring both fair and effective in this AI-saturated reality?_
+
+## Final thoughts
+
+The rise of AI has fundamentally changed the hiring landscape. As an interviewer, I find myself double-checking every unusual hesitation or overly polished answer, wondering if there's an AI whispering in the candidate's ear. As a candidate, you might be dealing with faceless AI evaluators that make the process feel soulless. Both sides are adjusting, for better or worse.
+
+At the end of the day, hiring is still about people. Trust and integrity have never been more important. Companies will need to innovate their interview techniques to winnow out AI-assisted pretenders (or decide that using AI is an acceptable skill in itself), and candidates will need to adapt to more rigorous authenticity checks. We're all navigating this new normal. My hope is that we can strike a balance, leveraging AI where it helps, but keeping the humanity in hiring. Because no matter how smart the machines get, it's people who build companies. And it's people we ultimately want to work with.
